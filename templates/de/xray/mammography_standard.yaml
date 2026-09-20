@@ -1,0 +1,22 @@
+untersuchung: "Mammographie"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "CC und MLO"
+  tomosynthese: ""
+  kompression: ""
+  seiten: "beidseits"
+
+befund:
+  brustdichte: "<ACR A, B, C oder D>"
+  herdbefunde: ""
+  asymmetrien_und_architektur: ""
+  mikrokalk: ""
+  haut_und_mamille: ""
+  axillaere_knoten: ""
+  clips_implantate: ""
+  birads: "<0, 1, 2, 3, 4A, 4B, 4C, 5 oder 6>"
+
+beurteilung: ""

@@ -1,0 +1,163 @@
+Ultraschall:
+  - Type: US_Hals
+    Templates:
+      - name: Schilddrüse
+        parent: false
+        children: false
+        filepath: ultrasound/neck_thyroid.yaml
+        explanation: Untersuchung der Schilddrüse bei V.a. Funktionsstörungen (Hyperthyreose, Hypothyreose), Autoimmunerkrankungen (Hashimoto, M. Basedow), Knoten, Zysten, Struma, Malignome. Verlaufskontrollen.
+      - name: Halslymphknoten
+        parent: false
+        children: false
+        filepath: ultrasound/neck_lymph_nodes.yaml
+        explanation: Beurteilung von Größe, Form, Struktur und Vaskularisation der Halslymphknoten bei V.a. Entzündung, Metastasierung oder Lymphom. Gezielte Suche bei bekannten Primärtumoren.
+      - name: Speicheldrüsen
+        parent: false
+        children: false
+        filepath: ultrasound/neck_salivary_glands.yaml
+        explanation: Untersuchung der Glandula parotis, submandibularis und sublingualis bei V.a. Sialolithiasis (Steine), Sialadenitis (Entzündung), Abszess oder Tumoren.
+  - Type: US_Weichteile
+    Templates:
+      - name: Mamma
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_breast.yaml
+        explanation: Ergänzung zur Mammographie, Brustkrebsvorsorge oder -nachsorge, Abklärung tastbarer Befunde, Zysten, Tumoren, Mastitis. Beurteilung der axillären Lymphknoten.
+      - name: Weichteilraumforderungen
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_lesion.yaml
+        explanation: Abklärung unklarer Schwellungen, Raumforderungen (z.B. Lipom, Atherom, Abszess, Hämatom, Serom, Tumor), Fremdkörperlokalisation.
+      - name: Muskuloskelettal (ohne Gelenke)
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_musculoskeletal.yaml
+        explanation: Beurteilung von Muskeln und Sehnen bei V.a. Ruptur, Tendinitis, Tendinose, Bursitis, Muskelverletzung (z.B. Rotatorenmanschette, Achillessehne, Bizepssehne).
+      - name: Nervenkompression
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_nerve_compression.yaml
+        explanation: Darstellung peripherer Nerven zur Abklärung von Kompressionssyndromen (z.B. Karpaltunnelsyndrom, Sulcus-ulnaris-Syndrom).
+      - name: Hernien
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_hernia.yaml
+        explanation: Nachweis oder Ausschluss von Hernien (Leistenhernie, Nabelhernie, Narbenhernie, Femoralhernie).
+      - name: Gelenke
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_joints.yaml
+        explanation: Beurteilung von Gelenkstrukturen bei V.a. Erguss, Synovitis, Arthritis, Baker-Zyste, freie Gelenkkörper, Knorpelschäden (begrenzt).
+      - name: Rheuma Hände
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_hands_rheumatology.yaml
+        explanation: Beurteilung rheumatischer Veränderungen der Hände, insbesondere der Fingergelenke und Sehnen.
+  - Type: US_Abdomen
+    Templates:
+      - name: Abdomen
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_standard.yaml
+        explanation: Standarduntersuchung des Abdomens. Leber (Fettleber, Zirrhose, Raumforderungen), Gallenblase/-wege (Steine, Entzündung), Pankreas (Pankreatitis, Tumoren), Milz (Größe, Struktur), Nieren (Stauung, Zysten, Tumoren), Aorta abdominalis.
+      - name: Urogenitaltrakt
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_urogenital.yaml
+        explanation: Fokussierte Untersuchung von Nieren, Harnblase, (bei Männern Prostata transabdominal), (bei Frauen Uterus/Adnexe transabdominal) bei V.a. Harnstau, Nierensteine, Tumoren, Zysten, Restharnbestimmung.
+      - name: Gynäkologisch (transvaginal/transabdominal)
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_gynecological.yaml
+        explanation: Gezielte Untersuchung von Uterus, Endometrium, Ovarien und Adnexen, meist transvaginal, zur Abklärung von Blutungsstörungen, Zysten, Myomen, Tumoren, Extrauteringravidität.
+      - name: Trauma (FAST)
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_fast.yaml
+        explanation: Fokussierte Untersuchung nach Trauma zum Nachweis/Ausschluss freier Flüssigkeit in Perikard, Pleura, Peritonealhöhle (Morison-Tasche, Koller-Pouch, Douglas-Raum) - Focused Assessment with Sonography for Trauma.
+      - name: Transplantatkontrolle
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_transplant.yaml
+        explanation: Verlaufskontrolle von Nieren-, Leber- oder Pankreastransplantaten (Perfusion mittels Doppler/Duplex, Parenchymstruktur, Komplikationen wie Abstoßung, Stenose, Thrombose).
+      - name: Kontrastmittel (CEUS)
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_ceus.yaml
+        explanation: Charakterisierung fokaler Läsionen (v.a. Leber, Niere) mittels Ultraschall-Kontrastmittel zur Differenzierung benigne/maligne.
+      - name: Elastographie
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_elastography.yaml
+        explanation: Messung der Gewebesteifigkeit, v.a. zur Beurteilung des Leberfibrosegrades.
+      - name: Interventionelle Planung/Kontrolle
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_intervention.yaml
+        explanation: Sonographisch gesteuerte Punktionen (Aszites, Pleura), Drainagenanlagen, Biopsien, Zystenaspirationen.
+      - name: Pädiatrie Abdomen
+        parent: false
+        children: false
+        filepath: ultrasound/pediatric_abdomen.yaml
+        explanation: Spezifische pädiatrische Fragestellungen wie Pylorusstenose, Invagination, Appendizitis.
+      - name: Pädiatrie Hüfte
+        parent: false
+        children: false
+        filepath: ultrasound/pediatric_hip.yaml
+        explanation: Spezifische pädiatrische Fragestellungen nach Hüftdysplasie (Screening nach Graf).
+  - Type: US_Gefaesse
+    Templates:
+      - name: Venen Bein (Thromboseausschluss)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_vein_leg.yaml
+        explanation: Duplexsonographie der tiefen und oberflächlichen Beinvenen zum Ausschluss oder Nachweis einer tiefen Venenthrombose (TVT) oder Varikophlebitis.
+      - name: Venen Arm (Thromboseausschluss)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_vein_arm.yaml
+        explanation: Duplexsonographie der tiefen und oberflächlichen Armvenen zum Ausschluss oder Nachweis einer Thrombose, oft bei ZVK-Trägern oder nach Punktionen.
+      - name: Arterien Bein (pAVK, Aneurysma, Entzündung)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_artery_leg.yaml
+        explanation: Duplex-/Dopplersonographie der Becken- und Beinarterien zur Abklärung von Stenosen, Verschlüssen (pAVK), Aneurysmen, Vaskulitis oder Verletzungsfolgen (z.B. Pseudoaneurysma).
+      - name: Arterien Arm (Stenose, Aneurysma, Entzündung)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_artery_arm.yaml
+        explanation: Duplex-/Dopplersonographie der Arm- und Schulterarterien zur Abklärung von Stenosen (z.B. Subclavian-Steal-Syndrom), Aneurysmen, Vaskulitis oder Verletzungsfolgen.
+      - name: Extrakranielle Hirnarterien (Carotis/Vertebralis)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_neck.yaml
+        explanation: Duplex-/Dopplersonographie der A. carotis communis, interna, externa und A. vertebralis zur Detektion von Stenosen, Plaques, Dissektionen. Beurteilung der A. temporalis bei V.a. Arteriitis temporalis.
+      - name: Aorta abdominalis (Screening/Kontrolle)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_aorta.yaml
+        explanation: Messung des Aortendurchmessers zum Screening oder zur Verlaufskontrolle eines Aortenaneurysmas (AAA).
+      - name: Shunt-/Transplantatgefäßkontrolle
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_shunt.yaml
+        explanation: Duplexsonographische Beurteilung von Dialyseshunts (AV-Fistel, Graft) oder der Gefäßversorgung von Transplantaten (z.B. Nierentransplantatarterie/-vene) auf Funktion, Stenosen, Thrombosen.
+  - Type: US_Thorax
+    Templates:
+      - name: Lungen
+        parent: false
+        children: false
+        filepath: ultrasound/chest_lungs.yaml
+        explanation: Nachweis, Quantifizierung und Beurteilung von Pleuraergüssen, Pleuritis, Pleuraschwarten, Ausschluss/Diagnose eines Pneumothorax, Pneumonie.
+  - Type: US_Herz
+    Templates:
+      - name: TTE Standard
+        parent: false
+        children: false
+        filepath: ultrasound/cardiac_tte.yaml
+        explanation: Transthorakale Echokardiographie zur Beurteilung von Herzgröße, Pumpfunktion (EF), Klappenfunktion, Perikarderguss.
+      - name: TEE
+        parent: false
+        children: false
+        filepath: ultrasound/cardiac_tee.yaml
+        explanation: Transösophageale Echokardiographie zur detaillierteren Beurteilung, v.a. Klappen, Vorhofohr, Endokarditis.

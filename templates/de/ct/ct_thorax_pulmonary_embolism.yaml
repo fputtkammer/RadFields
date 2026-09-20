@@ -1,0 +1,35 @@
+untersuchung: "CT Thorax Lungenembolie (CTPA)"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: "<Volumen, Fluss, Timing>"
+  dosis: ""
+
+befund:
+  lunge:
+    parenchym:
+      morphologie: ""
+      infarzierung: ""
+      minderperfusion: ""
+
+  gefaesse:
+    pulmonalarterien:
+      truncus_pulmonalis: ""
+      arteria_pulmonalis_rechts: ""
+      arteria_pulmonalis_links: ""
+      embolie:
+        - id: ""
+          lokalisation: ""
+          ausdehnung: ""
+        - id: ""
+          lokalisation: ""
+          ausdehnung: ""
+  herz:
+    rechtsherzbelastung: ""
+
+beurteilung: ""

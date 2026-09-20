@@ -1,0 +1,21 @@
+untersuchung: "Durchleuchtung"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  verfahren: "<z. B. Oesophagus, Colon, Urographie, Arthrographie, Myelographie>"
+  kontrastmittel: "<Präparat und Menge>"
+  applikationsweg: ""
+  lagerung_und_manoever: ""
+  durchleuchtungszeit_dosis: ""
+  bilddokumentation: "<Anzahl, Projektionen>"
+
+befund:
+  morphologie: ""
+  funktion_dynamik: ""
+  leaks_fuellungsdefekte: ""
+  stenosen: ""
+  fremdmaterial: ""
+
+beurteilung: ""

@@ -1,0 +1,24 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-TT
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+
+# Technische Details (optional, als Freitext)
+technik: "" # z.B. Gerät, Schallkopf (Frequenz)
+
+befund:
+  lokalisation_befund: "" # Genaue anatomische Beschreibung des Untersuchungsortes/der Schwellung (z.B. "rechter Oberschenkel ventral, Mitte")
+  hauptbefund_beschreibung: "" # Freitext für die Beschreibung der primären Raumforderung oder des auffälligen Bereichs:
+    # Größe (mm), Lage (subkutan, intramuskulär, Faszienbezug), Form, Abgrenzung, Echogenität, Binnenstruktur (solid, zystisch, komplex, Septen?),
+    # Komprimierbarkeit, Verschieblichkeit, Vaskularisation (Farbdoppler), Schallphänomene (z.B. dorsale Schallverstärkung/-auslöschung),
+    # Spezifische Zeichen (z.B. fibrilläre Struktur bei Lipom, Kapsel bei Atherom, Detritus/Luft bei Abszess, Schichtung bei Hämatom, Schallschatten bei Fremdkörper)
+  weitere_befunde:
+    # Optional: Liste für weitere separate Befunde oder Fremdkörper
+    - id: "" # Eindeutige Bezeichnung, z.B. "Befund 2", "Fremdkörper 1"
+      lokalisation: "" # Genaue Lage relativ zum Hauptbefund oder anatomisch
+      groesse_mm: "" # Größe in mm
+      beschreibung: "" # Freitext für Details
+    # - ggf. weitere Befunde hier hinzufügen
+  umgebende_strukturen: "" # Freitext Beschreibung des umgebenden Gewebes (z.B. Ödem, Entzündungsreaktion, Faszien intakt?)
+
+beurteilung: ""

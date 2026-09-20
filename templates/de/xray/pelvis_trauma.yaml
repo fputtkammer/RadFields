@@ -1,0 +1,20 @@
+untersuchung: "Röntgen Becken Trauma"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: ""
+  lage: ""
+
+befund:
+  beckenring:
+    frakturmuster: "<anterior/posterior, instabilitätsverdacht>"
+    dislokation: ""
+  acetabulum: ""
+  hueftgelenke_luxation: ""
+  sakrum_und_sakroiliakalgelenke: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

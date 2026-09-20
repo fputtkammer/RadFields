@@ -1,0 +1,66 @@
+untersuchung: "CT Angiographie Thorax"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  abdeckung: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  gefaesse:
+    aorta:
+      aorta_ascendens: ""
+      aortenbogen: ""
+      aorta_descendens: ""
+    supraaortale_gefaesse:
+      arteria_carotis_communis_rechts: ""
+      arteria_carotis_communis_links: ""
+      arteria_subclavia_rechts: ""
+      arteria_subclavia_links: ""
+    pulmonalarterien:
+      truncus_pulmonalis: ""
+      arteria_pulmonalis_rechts: ""
+      arteria_pulmonalis_links: ""
+    anatomische_varianten: ""
+    anomalien: ""
+
+  herz:
+    koronararterien: ""
+    klappen:
+      aortenklappe: ""
+      pulmonalklappe: ""
+      mitralklappe: ""
+      trikuspidalklappe: ""
+    bypass_und_stents: ""
+    perikard: ""
+
+  lunge:
+    parenchym: ""
+    bronchien: ""
+    erguss: ""
+    atelektase: ""
+    infiltrat: ""
+    raumforderung: ""
+    pneumothorax: ""
+
+  mediastinum:
+    lymphknoten: ""
+
+  thoraxwand:
+    rippen: ""
+    sternum: ""
+    weichteile: ""
+
+  oberbauch: ""
+
+  wirbelsaeule:
+    frakturen: ""
+    degeneration: ""
+  fremdmaterial: ""
+
+beurteilung: ""

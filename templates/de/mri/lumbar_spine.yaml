@@ -1,0 +1,24 @@
+untersuchung: "MRT LWS"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  conus_medullaris: ""
+  bandscheiben:
+    - hoehe: ""
+      protrusion_prolaps: "<medial, paramedian, foraminal, extraforaminal>"
+      neuroforamen: ""
+      nervenwurzelkontakt: ""
+  spinalkanalstenose: ""
+  spondylolisthese: "<Meyerding I-IV>"
+  sakroiliakalgelenke: ""
+  fremdmaterial: ""
+
+beurteilung: ""

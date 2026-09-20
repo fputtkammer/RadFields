@@ -1,0 +1,13 @@
+befund:
+  ziellaesion:
+    lage_zu_risikostrukturen: ""
+  ablationsverfahren: "<Radiofrequenz, Mikrowelle, Kryoablation>"
+  sonden:
+    - id: ""
+      position: ""
+    - id: ""
+      position: ""
+  ablationszone:
+    groesse_mm: ""
+    sicherheitsabstand_mm: ""
+  schutzverfahren: "<Hydrodissektion, Pneumodissektion, keine>"

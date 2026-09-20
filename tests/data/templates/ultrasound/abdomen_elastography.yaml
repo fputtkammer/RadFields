@@ -1,0 +1,20 @@
+untersuchung: Sonographie Elastographie
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, Schallkopf, Elastographie-Methode (Strain, SWE)
+befund:
+  organ: "" # Zumeist Leber
+  messungen:
+    messung_1:
+      wert: ""
+      einheit: "" # kPa, m/s
+      lokalisation: ""
+    messung_2:
+      wert: ""
+      einheit: ""
+      lokalisation: ""
+  durchschnittswert: ""
+  b_bild_befund: ""
+  sonstiges: ""
+beurteilung: ""

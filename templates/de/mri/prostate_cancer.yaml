@@ -1,0 +1,53 @@
+untersuchung: ""
+datum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+fragestellung: ""
+PSA: "<Wert in ng/ml>"
+mr_psa_dichte: "<PSA / Prostatavolumen>"
+voraufnahmen: ""
+vergleich: '<Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD">'
+
+technik:
+    geraet: "<Hersteller udn Typ, z.B. Siemens Skyra>"
+    feldstaerke_in_tesla: '<z.B. "1.5", "3">'
+    sequenzen:
+        - "<Hauptsequenzen auflisten>"
+        - "ggf. weitere Sequenzen hier hinzufügen"
+    kontrastmittel: '<Art und Menge oder "Kein KM">'
+    zusatzmedikation: "<z.B. Buscopan>"
+    bildqualitaet: ""
+
+befund:
+    prostatavolumen: "<in ml (L x B x H x 0.52)>"
+    prostatagroesse: "<in mm (Längs x Quer x AP)>"
+    haemorrhagien: ""
+    morphologie_periphere_zone: ""
+    morphologie_transitionalzone: ""
+    laesionen:
+        - id: '<Eindeutige Bezeichnung, z.B. "Läsion 1">'
+          lokalisation: "<Anatomische Lage>"
+          groesse_mm: "<Größte Ausdehnung in mm>"
+          t2w_pirads_befund: "<PI-RADS Score (1-5)>"
+          dwi_pirads_befund: "<PI-RADS Score (1-5)>"
+          dce_pirads_befund: "<PI-RADS Score (1-5)>"
+          kapselbeteiligung: "<ja/nein/unsicher>"
+          pirads_gesamt: "<Gesamt PI-RADS Score (1-5)>"
+        - id: '<Eindeutige Bezeichnung, z.B. "Läsion 2">'
+          lokalisation: "<Anatomische Lage>"
+          groesse_mm: "<Größte Ausdehnung in mm>"
+          t2w_pirads_befund: "<PI-RADS Score (1-5)>"
+          dwi_pirads_befund: "<PI-RADS Score (1-5)>"
+          dce_pirads_befund: "<PI-RADS Score (1-5)>"
+          kapselbeteiligung: "<ja/nein/unsicher>"
+          pirads_gesamt: "<Gesamt PI-RADS Score (1-5)>"
+    lymphknoten: ""
+    knochen: ""
+    organe_kleines_becken: "<Samenblasen, Rektum, Harnblase>"
+    zusatzbefund: ""
+
+beurteilung:
+    pirads:
+        - laesion_id: "<Bezug zur Läsion im Befundteil>"
+          lokalisation: ""
+          pirads_score: "<Gesamt PI-RADS Score (1-5)>"
+    gesamtbeurteilung: ""

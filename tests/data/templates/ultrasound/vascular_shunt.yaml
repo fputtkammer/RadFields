@@ -1,0 +1,27 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, Schallkopf (Frequenz), Doppler-Parameter
+befund:
+  art_und_lage: "" # Art des Shunts/Transplantats und Lokalisation
+  shunt: # Bei Dialyseshunt
+    typ: "" # "Native AV-Fistel" oder "Graft"
+    anastomose:
+      arteriell: "" # z.B. "A. radialis"
+      venoes: "" # z.B. "V. cephalica"
+    shuntvolumen: "" # Flussvolumen in ml/min
+    stenosen: "" # Lokalisation, Stenosegrad
+    aneurysmen: "" # Lokalisation, Größe
+  transplantatgefaesse: # Bei Transplantatgefäßen
+    arterie: # z.B. Nierentransplantatarterie
+      flussgeschwindigkeit: "" # In cm/s
+      resistive_index: "" # RI-Wert
+      stenosen: ""
+    vene:
+      flussgeschwindigkeit: "" # In cm/s
+      stenosen: ""
+  thrombosen: "" # Nachweis von Thrombosen
+  umgebung: "" # z.B. Hämatom, Serom, Lymphozele
+  sonstiges: ""
+beurteilung: ""

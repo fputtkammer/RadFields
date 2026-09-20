@@ -1,0 +1,22 @@
+untersuchung: ""
+befunddatum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+technik: "<z.B. Gerät, Schallkopf (Frequenz), dynamische Untersuchung?>"
+
+befund:
+  untersuchte_nerven_regionen: ""
+  nervenbefunde:
+    # Liste für die Befunde einzelner Nervenabschnitte
+    - id: "z.B. '1'"
+      lokalisation: "Eindeutige Bezeichnung, z.B. \"N. medianus prox. oder Karpaltunnel re\""
+      nerv_kaliber_csa_mm2: ""
+      nerv_struktur_echogenitaet: ""
+      nerv_kontinuitaet: ""
+      nerv_mobilitaet: ""
+      zeichen_der_kompression: ""
+      umgebendes_gewebe: "" #
+    # - ggf. weitere Nervenabschnitte hier hinzufügen
+  sonstiges: ""
+
+beurteilung: ""

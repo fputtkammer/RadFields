@@ -1,0 +1,23 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+
+# Technische Details (optional, als Freitext)
+technik: "" # z.B. Gerät, Schallkopf (Frequenz), dynamische Untersuchung?
+
+befund:
+  untersuchte_region: "" # Genaue anatomische Region (z.B. "Schulter rechts", "Achillessehne links", "Oberschenkelmuskulatur ventral links")
+  muskeln_beschreibung: ""
+  sehnen_beschreibung: ""
+  bursae_beschreibung: ""
+  spezifische_befunde:
+    # Optional: Liste für klar abgrenzbare, spezifische Befunde
+    - id: "" # Eindeutige Bezeichnung, z.B. "Ruptur Supraspinatussehne", "Tendinosis calcarea Infraspinatus", "Hämatom M. gastrocnemius"
+      lokalisation: ""
+      struktur_typ: ""
+      beschreibung: ""
+    # - ggf. weitere spezifische Befunde hier hinzufügen
+  weitere_strukturen: ""
+
+beurteilung: ""

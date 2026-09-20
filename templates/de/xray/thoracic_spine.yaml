@@ -1,0 +1,18 @@
+untersuchung: "Röntgen BWS"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "<ap, lateral>"
+  lage: ""
+
+befund:
+  alignment: ""
+  wirbelkoerper: ""
+  bandscheibenraeume: ""
+  degeneration: ""
+  rippenansatzbereiche: ""
+  fremdmaterial: ""
+
+beurteilung: ""

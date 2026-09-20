@@ -1,0 +1,25 @@
+untersuchung: "MRT Handgelenk"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  knochen: ""
+  knorpel: ""
+  tfcc: ""
+  sl_band: ""
+  lt_band: ""
+  sehnen:
+    strecksehnen: ""
+    beugesehnen: ""
+  karpaltunnel: ""
+  erguss: ""
+  fremdmaterial: ""
+
+beurteilung: ""

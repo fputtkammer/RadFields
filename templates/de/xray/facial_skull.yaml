@@ -1,0 +1,20 @@
+untersuchung: "Röntgen Gesichtsschädel"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "<z. B. Waters, Caldwell, lateral>"
+  lage: ""
+
+befund:
+  orbita: ""
+  nase: ""
+  oberkiefer: ""
+  unterkiefer: ""
+  kiefergelenke: ""
+  nasennebenhoehlen: ""
+  osteosynthese_und_zahnmaterial: ""
+  weichteile: ""
+
+beurteilung: ""

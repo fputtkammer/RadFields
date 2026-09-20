@@ -1,0 +1,59 @@
+untersuchung: "CT Herz"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "<KM, EKG-getriggert>"
+  rekonstruktionen: "<inclusive phasenspezifischer Rekonstruktionen>"
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  ecg_gating: "<prospektiv/retrospektiv, RR-Phase>"
+  dosis: ""
+
+befund:
+  herz:
+    koronararterien: ""
+    kammern: ""
+    myokard: ""
+    klappen:
+      aortenklappe: ""
+      mitralklappe: ""
+      trikuspidalklappe: ""
+      pulmonalklappe: ""
+    bypass_und_stents: ""
+    anomalien: ""
+    perikard: ""
+
+  lunge:
+    parenchym: ""
+    bronchien: ""
+    erguss: ""
+    atelektase: ""
+    infiltrat: ""
+    raumforderung: ""
+    pneumothorax: ""
+
+  mediastinum:
+    lymphknoten: ""
+
+  gefaesse:
+    aorta:
+      aorta_ascendens: ""
+      aortenbogen: ""
+      aorta_descendens: ""
+
+  thoraxwand:
+    rippen: ""
+    sternum: ""
+    weichteile: ""
+
+  oberbauch: ""
+
+  wirbelsaeule:
+    frakturen: ""
+    degeneration: ""
+
+  fremdmaterial: ""
+
+beurteilung: ""

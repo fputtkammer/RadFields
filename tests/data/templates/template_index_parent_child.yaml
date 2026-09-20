@@ -1,0 +1,335 @@
+Computer Tomographie:
+  - Type: CT Kopf
+    Templates:
+      # MAIN PARENT TEMPLATES - INTRAKRANIELLE BILDGEBUNG UND FAZIALE STRUKTUREN
+      - name: CT Kopf mit oder ohne Kontrastmittel
+        parent: false # Basistemplate für alle intrakraniellen Untersuchungen.
+        children:
+          - CT Kopf nach OP
+          - CT Perfusion Kopf
+        filepath: ct/ct_head_standard.yaml
+        explanation: Computertomographie des Schädels mit oder ohne Kontrastmittel zur Beurteilung von Blutungen, Frakturen, Tumoren, Infarkten.
+
+      - name: CT Gesichtsschädel
+        parent: false # Basistemplate für alle fazialen Strukturen.
+        children:
+          - CT Nasennebenhöhlen
+          - CT Felsenbein
+          - CT Kiefer
+        filepath: ct/ct_facial_skull.yaml
+        explanation: Computertomographie des Gesichtsschädels zur Beurteilung von Frakturen, Tumoren und Fehlbildungen.
+
+      - name: CT Angiographie Kopf-Hals
+        parent: false
+        children: false
+        filepath: ct/ct_angiography_head_neck.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Kopf- und Halsbereich (Carotiden, Vertebralarterien) auf Stenosen, Aneurysmen, Dissektionen.
+
+      # CHILD TEMPLATES - INTRAKRANIELLE BILDGEBUNG
+      - name: CT Kopf nach OP
+        parent: CT Kopf mit oder ohne Kontrastmittel
+        children: false
+        filepath: ct/ct_head_post_op.yaml
+        explanation: Computertomographie des Schädels nach neurochirurgischen Eingriffen zur Beurteilung von Komplikationen wie Blutungen, Infektionen, Shuntfunktion oder Tumorrest.
+
+      - name: CT Perfusion Kopf
+        parent: CT Kopf mit oder ohne Kontrastmittel
+        children: false
+        filepath: ct/ct_perfusion_head.yaml
+        explanation: Computertomographie zur Beurteilung der zerebralen Perfusion bei Schlaganfallverdacht mit Bestimmung von CBF, CBV, MTT und TTP.
+
+      # CHILD TEMPLATES - FAZIALE STRUKTUREN
+      - name: CT Nasennebenhöhlen
+        parent: CT Gesichtsschädel
+        children: false
+        filepath: ct/ct_sinuses.yaml
+        explanation: Computertomographie der Nasennebenhöhlen zur Beurteilung von Sinusitis, Polyposis, Zysten und präoperativen Planung.
+
+      - name: CT Felsenbein
+        parent: CT Gesichtsschädel
+        children: false
+        filepath: ct/ct_temporal_bone.yaml
+        explanation: Hochauflösende Computertomographie des Felsenbeins zur Beurteilung des Mittel- und Innenohrs bei Otosklerose, Cholesteatom, Frakturen oder Hörverlust.
+
+      - name: CT Kiefer
+        parent: CT Gesichtsschädel
+        children: false
+        filepath: ct/ct_mandible_maxilla.yaml
+        explanation: Computertomographie der Kiefer zur Beurteilung von Zahnstatus, Kieferzysten, Tumoren, Frakturen und präimplantärer Diagnostik.
+
+  - Type: CT Hals
+    Templates:
+      # MAIN PARENT TEMPLATE
+      - name: CT Hals Standard
+        parent: false
+        children:
+          - CT Hals Trauma
+          - CT Hals Raumforderung
+          - CT Hals Entzündung
+        filepath: ct/ct_neck_standard.yaml
+        explanation: Computertomographie des Halses zur Beurteilung von Weichteilen, Lymphknoten, Schilddrüse, Gefäßen und Atemwegen.
+
+      - name: CT Angiographie Kopf-Hals # Repeated from CT Kopf, to avoid selection errors if the model focusses on the neck region for the angiography.
+        parent: false
+        children: false
+        filepath: ct/ct_angiography_head_neck.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Kopf- und Halsbereich (Carotiden, Vertebralarterien) auf Stenosen, Aneurysmen, Dissektionen.
+
+      # CHILD TEMPLATES
+      - name: CT Hals Trauma
+        parent: CT Hals Standard
+        children: false
+        filepath: ct/ct_neck_trauma.yaml
+        explanation: Computertomographie des Halses nach Trauma zur Beurteilung von Frakturen, Hämatomen, Gefäßverletzungen und Fremdkörpern.
+
+      - name: CT Hals Raumforderung
+        parent: CT Hals Standard
+        children: false
+        filepath: ct/ct_neck_mass.yaml
+        explanation: Computertomographie des Halses zur Beurteilung von Raumforderungen (Schilddrüsenknoten, Lymphome, Metastasen, Primärtumoren) und deren Staging.
+
+      - name: CT Hals Entzündung
+        parent: CT Hals Standard
+        children: false
+        filepath: ct/ct_neck_inflammation.yaml
+        explanation: Computertomographie des Halses zur Beurteilung von Entzündungen, Abszessen, Phlegmonen und Zellulitis.
+
+  - Type: CT Thorax
+    Templates:
+      - name: CT Thorax Standard
+        parent: false # Basis für alle thorakalen Untersuchungen.
+        children:
+          - CT Thorax Trauma
+          - CT Thorax Raumforderung
+          - CT Thorax Lungenparenchym
+          - CT Thorax Lungenembolie
+        filepath: ct/ct_thorax_standard.yaml
+        explanation: Computertomographie des Thorax zur Beurteilung von Lunge, Mediastinum, Pleura und thorakalen Strukturen.
+
+      # CHILD TEMPLATES
+      - name: CT Thorax Trauma
+        parent: CT Thorax Standard
+        children: false
+        filepath: ct/ct_thorax_trauma.yaml
+        explanation: Computertomographie des Thorax nach Trauma zur Beurteilung von Frakturen, Pneumothorax, Hämatothorax, Organrupturen und Aortenverletzungen.
+
+      - name: CT Thorax Raumforderung
+        parent: CT Thorax Standard
+        children: false
+        filepath: ct/ct_thorax_mass.yaml
+        explanation: Computertomographie des Thorax zur Beurteilung von Raumforderungen (Lungentumoren, Lymphome, Metastasen) mit Staging und Ausbreitungsdiagnostik.
+
+      - name: CT Thorax Lungenparenchym
+        parent: CT Thorax Standard
+        children: false
+        filepath: ct/ct_thorax_parenchyma.yaml
+        explanation: Computertomographie des Thorax zur Beurteilung von Lungenparenchymerkrankungen (Pneumonie, Fibrose, interstitielle Lungenerkrankungen, COPD).
+
+      - name: CT Thorax Lungenembolie
+        parent: CT Thorax Standard
+        children: false
+        filepath: ct/ct_thorax_pulmonary_embolism.yaml
+        explanation: CT-Pulmonalisangiographie zur Beurteilung von Lungenembolien mit speziellem Kontrastmittelprotokoll und pulmonalarteriellem Timing.
+
+      - name: CT Angiographie Thorax
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_thorax.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Thoraxbereich (A. pulmonalis, A. subclavia) auf Stenosen, Aneurysmen, Dissektionen.
+
+  - Type: CT Herz
+    Templates:
+      - name: CT Herz Standard
+        parent: false # Basis für alle kardialen Untersuchungen.
+        children:
+          - CT Koronararterien
+          - CT Herz Pulmonalvenenisolation
+        filepath: ct/ct_heart_standard.yaml
+        explanation: Computertomographie des Herzens zur Beurteilung von Koronararterien, Herzklappen, Myokard und Perikard.
+
+      # CHILD TEMPLATES
+      - name: CT Koronararterien
+        parent: CT Herz Standard
+        children: false
+        filepath: ct/ct_heart_coronary_angiography.yaml
+        explanation: CT-Koronarangiographie zur Beurteilung von Koronarstenosen, Plaques und Bypässen mit EKG-Gating und optimiertem Kontrastprotokoll.
+
+      - name: CT Herz Pulmonalvenenisolation
+        parent: CT Herz Standard
+        children: false
+        filepath: ct/ct_heart_intervention.yaml
+        explanation: Computertomographie zur Planung einer Pulmonalvenenisolation.
+
+  - Type: CT Angiographie
+    Templates:
+      - name: CT Angiographie Standard
+        parent: false # Basis für alle angiographischen Untersuchungen außerhalb des Herzens.
+        children:
+          - CT Aorta komplett
+          - CT Angiographie Bein
+          - CT Angiographie Arm
+          - CT Angiographie Thorax
+          - CT Angiographie Abdomen
+        filepath: ct/ct_angiography_standard.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Gefäßdarstellung (außer Herz).
+
+      # CHILD TEMPLATES
+      - name: CT Aorta komplett
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_aorta_complete.yaml
+        explanation: Computertomographie der gesamten Aorta (thorakal und abdominal) zur Beurteilung von Aneurysmen, Dissektionen, Stenosen und Endoleaks.
+
+      - name: CT Angiographie Bein
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_peripheral.yaml
+        explanation: Computertomographie der Becken und Beinarterien zur Beurteilung von pAVK, Stenosen, Aneurysmen und Embolien.
+
+      - name: CT Angiographie Arm
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_peripheral.yaml
+        explanation: Computertomographie der Schulter und Armarterien zur Beurteilung von pAVK, Stenosen, Aneurysmen und Embolien.
+
+      - name: CT Phlebographie
+        parent: false
+        children: false
+        filepath: ct/ct_phlebography.yaml
+        explanation: Computertomographie der Venen zur Beurteilung von Thrombosen, Stenosen und anatomischen Varianten (obere/untere Extremität, Becken).
+
+      - name: CT Angiographie Kopf-Hals # Repeated from CT Kopf, to avoid selection errors if the model focusses on the neck region for the angiography.
+        parent: false
+        children: false
+        filepath: ct/ct_angiography_head_neck.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Kopf- und Halsbereich (Carotiden, Vertebralarterien) auf Stenosen, Aneurysmen, Dissektionen.
+
+      - name: CT Thorax Lungenembolie # Repeated from CT Thorax, to avoid selection errors if the model focusses on the thoracic region for the angiography.
+        parent: CT Thorax Standard
+        children: false
+        filepath: ct/ct_thorax_pulmonary_embolism.yaml
+        explanation: CT-Pulmonalisangiographie zur Beurteilung von Lungenembolien mit speziellem Kontrastmittelprotokoll und pulmonalarteriellem Timing.
+
+      - name: CT Angiographie Thorax
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_thorax.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Thoraxbereich (A. pulmonalis, A. subclavia) auf Stenosen, Aneurysmen, Dissektionen.
+
+      - name: CT Angiographie Abdomen
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_abdomen.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Abdomen (Aorta, Nierenarterien, Mesenterialarterien) auf Stenosen, Aneurysmen, Dissektionen.
+
+  - Type: CT Abdomen und Becken
+    Templates:
+      - name: CT Abdomen und Becken Standard # Basis für alle abdominellen Untersuchungen.
+        parent: false
+        children:
+          - CT Abdomen Trauma
+          - CT Abdomen Raumforderung
+          - CT Abdomen Akut
+          - CT Abdomen Urolithiasis
+        filepath: ct/ct_abdomen_standard.yaml
+        explanation: Computertomographie des Abdomens und Beckens zur Beurteilung von Leber, Pankreas, Milz, Nieren, Darm und Beckenorganen.
+
+      # CHILD TEMPLATES
+      - name: CT Abdomen Trauma
+        parent: CT Abdomen und Becken Standard
+        children: false
+        filepath: ct/ct_abdomen_trauma.yaml
+        explanation: Computertomographie des Abdomens nach Trauma zur Beurteilung von Organrupturen, Blutungen, Frakturen und Fremdkörpern.
+
+      - name: CT Abdomen Raumforderung
+        parent: CT Abdomen und Becken Standard
+        children: false
+        filepath: ct/ct_abdomen_mass.yaml
+        explanation: Computertomographie des Abdomens zur Beurteilung von Raumforderungen aller Organe (Leber, Pankreas, Nieren, Ovarien, Darm) mit Staging und Metastasensuche.
+
+      - name: CT Abdomen Akut
+        parent: CT Abdomen und Becken Standard
+        children: false
+        filepath: ct/ct_abdomen_acute.yaml
+        explanation: Computertomographie des Abdomens bei akuten Erkrankungen (Appendizitis, Divertikulitis, Pankreatitis, Sepsis, Intensivstation).
+
+      - name: CT Abdomen Urolithiasis
+        parent: CT Abdomen und Becken Standard
+        children: false
+        filepath: ct/ct_abdomen_stones.yaml
+        explanation: Low-Dose-Computertomographie ohne Kontrastmittel zur Beurteilung von Nieren- und Harnleitersteinen.
+
+      - name: CT Angiographie Abdomen
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_abdomen.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Abdomen (Aorta, Nierenarterien, Mesenterialarterien) auf Stenosen, Aneurysmen, Dissektionen.
+
+  - Type: CT Wirbelsäule
+    Templates:
+      - name: CT Wirbelsäule Standard
+        parent: false
+        children:
+          - CT HWS
+          - CT BWS
+          - CT LWS
+        filepath: ct/ct_spine_standard.yaml
+        explanation: Computertomographie der Wirbelsäule, zumeist ohne Kontrastmittel zur Beurteilung von Frakturen, Stenosen, Tumoren und Osteosynthesematerial.
+
+      # CHILD TEMPLATES
+      - name: CT HWS
+        parent: CT Wirbelsäule Standard
+        children: false
+        filepath: ct/ct_cervical_spine.yaml
+        explanation: Computertomographie der Halswirbelsäule zur Beurteilung von Frakturen, Instabilitäten, Stenosen und Tumoren.
+
+      - name: CT BWS
+        parent: CT Wirbelsäule Standard
+        children: false
+        filepath: ct/ct_thoracic_spine.yaml
+        explanation: Computertomographie der Brustwirbelsäule zur Beurteilung von Frakturen, Stenosen, Tumoren und Osteosynthesematerial.
+
+      - name: CT LWS
+        parent: CT Wirbelsäule Standard
+        children: false
+        filepath: ct/ct_lumbar_spine.yaml
+        explanation: Computertomographie der Lendenwirbelsäule zur Beurteilung von Frakturen, Stenosen, Tumoren und Osteosynthesematerial.
+
+  - Type: CT Bewegungsapparat
+    Templates:
+      # MAIN PARENT TEMPLATE
+      - name: CT Bewegungsapparat Standard
+        parent: false
+        children:
+          - CT Extremitäten
+          - CT Becken
+        filepath: ct/ct_musculoskeletal_standard.yaml
+        explanation: Computertomographie des Bewegungsapparats zur Beurteilung von Knochen, Gelenken und Weichteilen.
+
+      # CHILD TEMPLATES
+      - name: CT Extremitäten
+        parent: CT Bewegungsapparat Standard
+        children: false
+        filepath: ct/ct_extremities.yaml
+        explanation: Computertomographie der Extremitäten (Arme, Beine, Gelenke) zur Beurteilung von Frakturen, Gelenkveränderungen, Osteosynthesematerial und Tumoren.
+
+      - name: CT Becken
+        parent: CT Bewegungsapparat Standard
+        children: false
+        filepath: ct/ct_pelvis_bone.yaml
+        explanation: Computertomographie des Beckens zur Beurteilung von Frakturen, Tumoren, Osteosynthesematerial und Gelenkveränderungen.
+
+  - Type: CT Spezialprotokolle
+    Templates:
+      # STANDALONE TEMPLATES
+      - name: CT Polytrauma
+        parent: false
+        children: false
+        filepath: ct/ct_polytrauma.yaml
+        explanation: Computertomographie-Protokoll für schnelle Ganzkörper-Beurteilung bei Polytrauma-Patienten (Kopf, Thorax, Abdomen).
+
+      - name: CT Myelom
+        parent: false
+        children: false
+        filepath: ct/ct_myeloma.yaml
+        explanation: Computertomographie-Protokoll für Suche nach Osteolysen und Frakturen bei Multiples Myelom.

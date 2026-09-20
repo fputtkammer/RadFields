@@ -1,0 +1,28 @@
+untersuchung: "Gelenkdarstellung / Myelographie"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  verfahren: "<Arthrographie oder Myelographie>"
+  kontrastmittel: ""
+  applikationsweg: ""
+  lagerung_und_manoever: ""
+  durchleuchtungszeit_dosis: ""
+
+befund:
+  arthrographie:
+    gelenk: ""
+    kapsel_und_synovia: ""
+    kontrastverteilung: ""
+    leckage_oder_riss: ""
+    freie_gelenkkoerper: ""
+  myelographie:
+    niveau: ""
+    duralsack: ""
+    wurzeltaschen: ""
+    einengungen: ""
+    extravasat: ""
+  fremdmaterial: ""
+
+beurteilung: ""

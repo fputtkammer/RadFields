@@ -1,0 +1,21 @@
+untersuchung: ""
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  bildgebung: "<CT, DSA, MRT, Hybridverfahren>"
+  zugangsweg: ""
+  kontrastmittel: ""
+
+befund:
+  ziellaesion:
+    organ: "<Leber, Niere, Lunge, Knochen>"
+    segment: ""
+    groesse_mm: ""
+    anzahl_behandelter_laesionen: ""
+  durchfuehrung: ""
+  ergebnis: ""
+  komplikationen: ""
+
+beurteilung: ""

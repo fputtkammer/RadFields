@@ -1,0 +1,29 @@
+untersuchung: Echokardiographie TTE (transthorakal)
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: ""
+befund:
+  linksherz:
+    lvedd: "" # Linksventrikulärer enddiastolischer Durchmesser
+    lvesd: ""
+    septum: ""
+    hinterwand: ""
+    lv_funktion: "" # EF in %
+    regionale_wandbewegungsstoerungen: ""
+  rechtsherz:
+    rv_groesse: ""
+    rv_funktion: ""
+    rechtsventrikulaerer_druck: ""
+  vorhöfe:
+    linker_vorhof: ""
+    rechter_vorhof: ""
+  klappen:
+    aortenklappe: ""
+    mitralklappe: ""
+    trikuspidalklappe: ""
+    pulmonalklappe: ""
+  perikard: ""
+  aorta: ""
+  sonstiges: ""
+beurteilung: ""

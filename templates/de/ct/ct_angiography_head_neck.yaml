@@ -1,0 +1,25 @@
+untersuchung: "CT Angiographie Kopf-Hals"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "arterielle CTA"
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: "<Volumen, Fluss, Bolustracking-ROI>"
+  dosis: ""
+
+befund:
+  aorta: ""
+  karotisstrombahn: "<Plaques, Stenosegrad, Dissektion>"
+  vertebralarterien: ""
+  cerebral_arterien: ""
+  okklusionen: ""
+  aneurysmen: ""
+  malformationen: ""
+  variante_anatomie: ""
+  knochen: ""
+  weichteile: ""
+
+beurteilung: ""

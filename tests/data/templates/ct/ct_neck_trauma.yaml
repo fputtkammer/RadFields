@@ -1,0 +1,21 @@
+untersuchung: "CT Hals Trauma"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "<mit KM, ggf. CTA>"
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  frakturen:
+    atlanto_axial: ""
+    wirbelkoerper: ""
+    instabilitaet: ""
+  gefaessverletzung: ""
+  weichteilverletzung: ""
+
+beurteilung: ""

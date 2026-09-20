@@ -1,0 +1,24 @@
+untersuchung: "Breischluck"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  kontrastmittel: ""
+  applikationsweg: "oral"
+  lagerung_und_manoever: "<z. B. Valsalva, Refluxprovokation>"
+  durchleuchtungszeit_dosis: ""
+
+befund:
+  hypopharynx: ""
+  oesophagus:
+    kaliberverlauf: ""
+    motilitaet: ""
+    schleimhautrelief: ""
+    hiatushernie: ""
+    reflux_zeichen: ""
+    stenose_oder_fuellungsdefekt: ""
+  aspiration: ""
+  fremdmaterial: ""
+
+beurteilung: ""

@@ -1,0 +1,27 @@
+untersuchung: "MRT Kopf Raumforderung"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  raumforderung:
+    - id: ""
+      lokalisation: ""
+      groesse_mm: ""
+      signalverhalten: ""
+      kontrastmittelaufnahme: ""
+      oedem: ""
+      masseneffekt: ""
+      infiltration: ""
+  weitere_laesionen: ""
+  mittellinienverlagerung_mm: ""
+  liquorzirkulation: ""
+  lymphknoten: ""
+
+beurteilung: ""

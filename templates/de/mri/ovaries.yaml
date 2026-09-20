@@ -1,0 +1,31 @@
+untersuchung: "MRT Ovarien"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  ovar_rechts:
+    groesse: ""
+    morphologie: ""
+  ovar_links:
+    groesse: ""
+    morphologie: ""
+  laesionen:
+    - id: ""
+      seite: ""
+      groesse_mm: ""
+      signalverhalten: ""
+      solide_anteile: ""
+      kontrastmittelaufnahme: ""
+  uterus: ""
+  peritoneum: ""
+  lymphknoten: ""
+  aszites: ""
+
+beurteilung: ""

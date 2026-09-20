@@ -1,0 +1,27 @@
+untersuchung: "MRT Ellenbogen"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  knochen: ""
+  knorpel: ""
+  kollateralbaender:
+    ulnar: ""
+    radial: ""
+  sehnen:
+    bizeps: ""
+    trizeps: ""
+    extensoren: ""
+    flexoren: ""
+  nervus_ulnaris: ""
+  erguss: ""
+  fremdmaterial: ""
+
+beurteilung: ""

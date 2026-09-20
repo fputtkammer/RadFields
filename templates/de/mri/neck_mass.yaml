@@ -1,0 +1,27 @@
+untersuchung: "MRT Hals Raumforderung"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  raumforderung:
+    - id: ""
+      lokalisation: "<Level I-VI nach Robbins>"
+      groesse_mm: ""
+      signalverhalten: ""
+      kontrastmittelaufnahme: ""
+      infiltration: ""
+  lymphknoten:
+    - id: ""
+      lokalisation: "<Level I-VI nach Robbins>"
+      groesse_mm: ""
+      morphologie: ""
+  gefaessbeteiligung: ""
+
+beurteilung: ""

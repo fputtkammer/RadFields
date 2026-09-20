@@ -1,0 +1,22 @@
+untersuchung: ""
+befunddatum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+technik: "<z.B. Gerät, Schallkopf (Frequenz), Untersuchung im Stehen/Liegen>"
+
+befund:
+  untersuchte_regionen: "<Beschriebene Regionen (z.B. \"Leistenregion bds.\", \"Nabelregion\", \"Narbe Oberbauch-Median-Laparotomie\")>"
+  befund_in_ruhe: ""
+  befund_bei_provokation: ""
+  hernienbefunde:
+    # Liste für spezifisch nachgewiesene Hernien
+    - id: "<Eindeutige Bezeichnung, z.B. \"Hernie 1\", \"Leistenhernie re\">"
+      lokalisation: ""
+      bruchpforte_groesse_mm: ""
+      bruchsackinhalt: ""
+      reponierbarkeit: ""
+      komplikationen_zeichen: ""
+    # - ggf. weitere Hernien hier hinzufügen
+  sonstiges: "<Platz für weitere relevante Befunde (z.B. Flüssigkeitskollektionen, Lymphknoten, Bauchwanddicke)>"
+
+beurteilung: ""

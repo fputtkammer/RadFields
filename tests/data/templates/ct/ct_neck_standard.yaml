@@ -1,0 +1,24 @@
+untersuchung: "CT Hals"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "<mit KM>"
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  pharynx: ""
+  larynx: ""
+  lymphknoten: ""
+  speicheldruesen: ""
+  schilddruese: ""
+  gefaesse: ""
+  halswirbelsaeule: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

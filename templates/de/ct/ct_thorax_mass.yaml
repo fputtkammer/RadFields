@@ -1,0 +1,28 @@
+untersuchung: "CT Thorax Raumforderung"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "mit KM"
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  tumor:
+    - id: "<Raumforderung (Liste)>"
+      groesse_mm: ""
+      lokalisation: ""
+      morphologie: ""
+      pleurabeteiligung: ""
+      gefaess_infiltration: ""
+    - id: ""
+      groesse_mm: ""
+      lokalisation: ""
+      morphologie: ""
+      pleurabeteiligung: ""
+      gefaess_infiltration: ""
+
+beurteilung: ""

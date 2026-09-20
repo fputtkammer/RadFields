@@ -1,0 +1,33 @@
+untersuchung: "MRT Angiographie Abdomen"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  gefaesse:
+    aorta:
+      aorta_abdominalis: ""
+    viszerale_gefaesse:
+      truncus_coeliacus: ""
+      arteria_mesenterica_superior: ""
+      arteria_mesenterica_inferior: ""
+      arteria_renalis_rechts: ""
+      arteria_renalis_links: ""
+    iliakal_gefaesse:
+      arteria_iliaca_communis_rechts: ""
+      arteria_iliaca_communis_links: ""
+      arteria_iliaca_externa_rechts: ""
+      arteria_iliaca_externa_links: ""
+      arteria_iliaca_interna_rechts: ""
+      arteria_iliaca_interna_links: ""
+    anatomische_varianten: ""
+
+  organperfusion: ""
+
+beurteilung: ""

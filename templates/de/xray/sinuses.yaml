@@ -1,0 +1,20 @@
+untersuchung: "Röntgen Nasennebenhöhlen"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "<z. B. Waters>"
+  lage: ""
+
+befund:
+  sinus_maxillaris: ""
+  sinus_frontalis: ""
+  sinus_ethmoidales: ""
+  sinus_sphenoidalis: ""
+  schleimhautverdickung: ""
+  sekretverhalt: ""
+  ostiomeatale_einheit_indirekt: ""
+  weichteile: ""
+
+beurteilung: ""

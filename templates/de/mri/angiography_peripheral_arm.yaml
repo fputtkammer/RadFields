@@ -1,0 +1,30 @@
+untersuchung: "MRT Angiographie Arm"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  gefaesse:
+    aorta:
+      aortenbogen: ""
+    supraaortale_gefaesse:
+      truncus_brachiocephalicus: ""
+      arteria_subclavia_rechts: ""
+      arteria_subclavia_links: ""
+      arteria_axillaris_rechts: ""
+      arteria_axillaris_links: ""
+      arteria_brachialis_rechts: ""
+      arteria_brachialis_links: ""
+      arteria_radialis_rechts: ""
+      arteria_radialis_links: ""
+      arteria_ulnaris_rechts: ""
+      arteria_ulnaris_links: ""
+    anatomische_varianten: ""
+
+beurteilung: ""

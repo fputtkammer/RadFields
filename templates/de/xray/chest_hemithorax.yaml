@@ -1,0 +1,16 @@
+untersuchung: "Röntgen Hemithorax"
+klinische_angaben: "<Fragestellung, Symptome, bekannte Erkrankungen>"
+befunddatum: "<Datum der Befunderstellung, z.B. \"YYYY-MM-DD\">"
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+
+technik:
+  projektionen: "<zielaufnahme Rippen>"
+  lage: ""
+
+befund:
+  seite: "<rechts, links>"
+  rippen: ""
+  knochen_weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

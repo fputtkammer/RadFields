@@ -1,0 +1,23 @@
+untersuchung: ""
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  bildgebung: "<DSA, CT, Durchleuchtung>"
+  zugangsweg: "<A. femoralis, A. radialis, V. jugularis, V. femoralis>"
+  schleuse: ""
+  katheter: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  zielgefaess: ""
+  befund_vor_intervention: ""
+  durchgefuehrte_massnahmen: ""
+  implantiertes_material: ""
+  ergebnis: ""
+  komplikationen: ""
+  abschlusskontrolle: ""
+
+beurteilung: ""

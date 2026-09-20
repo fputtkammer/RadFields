@@ -1,0 +1,26 @@
+untersuchung: "MRT Sprunggelenk"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  knochen: ""
+  knorpel: ""
+  baender:
+    lig_fibulotalare_anterius: ""
+    lig_fibulocalcaneare: ""
+    lig_deltoideum: ""
+    syndesmose: ""
+  achillessehne: ""
+  peronaealsehnen: ""
+  tibialis_posterior_sehne: ""
+  erguss: ""
+  fremdmaterial: ""
+
+beurteilung: ""

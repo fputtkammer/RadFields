@@ -1,0 +1,18 @@
+untersuchung: "Röntgen Extremitäten"
+klinische_angaben: "<Fragestellung, Symptome, bekannte Erkrankungen>"
+befunddatum: "<Datum der Befunderstellung, z.B. \"YYYY-MM-DD\">"
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+
+technik:
+  projektionen: "<ap, lateral, schräg>"
+  lage: ""
+  region: "<z. B. Hand, Unterarm, Knie>"
+
+befund:
+  seite: "<rechts, links>"
+  knochen: ""
+  gelenke: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

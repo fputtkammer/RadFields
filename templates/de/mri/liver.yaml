@@ -1,0 +1,34 @@
+untersuchung: "MRT Leber"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  hepatobiliare_phase: ""
+  bildqualitaet: ""
+
+befund:
+  leberparenchym:
+    groesse: ""
+    signal: ""
+    steatose: ""
+    siderose: ""
+  laesionen:
+    - id: ""
+      segment: "<I-VIII nach Couinaud>"
+      groesse_mm: ""
+      signalverhalten: ""
+      kontrastmittelkinetik: ""
+      wash_out: ""
+      differentialdiagnose: ""
+  gallenwege: ""
+  gefaesse:
+    pfortader: ""
+    lebervenen: ""
+    a_hepatica: ""
+  aszites: ""
+
+beurteilung: ""

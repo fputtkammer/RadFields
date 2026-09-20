@@ -1,0 +1,23 @@
+untersuchung: "MRT Hals Trauma"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  rueckenmark:
+    signal: ""
+    kontusion: ""
+    kompression: ""
+  ligamente: ""
+  haematom: ""
+  gefaessverletzung: ""
+  fraktur: ""
+  weichteilverletzung: ""
+
+beurteilung: ""

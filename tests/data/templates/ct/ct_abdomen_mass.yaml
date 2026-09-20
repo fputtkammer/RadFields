@@ -1,0 +1,34 @@
+untersuchung: "CT Abdomen Raumforderung"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "mehrphasig"
+  abdeckung: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  raumforderungen:
+    - id: ""
+      organ: "<Auswahl aus: Leber, gallenwege, gallenblase, pankreas, milz, nebennieren, nieren, ureter, harnblase, prostata, uterus, ovarien, magen, duenndarm, colon, lymphknoten, sonstige>"
+      groesse: "<in mm>"
+      kontrastmittel_verhalten: ""
+      gefaessbezug: ""
+      beschreibung: ""
+    - id: ""
+      organ: ""
+      groesse: "<in mm>"
+      kontrastmittel_verhalten: ""
+      gefaessbezug: ""
+      beschreibung: ""
+  lymphknoten: ""
+  peritoneum:
+    freie_fluessigkeit: ""
+    freie_luft: ""
+    herdbefunde: ""
+
+beurteilung: ""

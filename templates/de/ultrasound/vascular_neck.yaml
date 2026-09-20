@@ -1,0 +1,28 @@
+untersuchung: ""
+befunddatum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+technik: "<z.B. Gerät, Schallkopf (Frequenz), Doppler-Parameter>"
+befund:
+  aa_carotides_communes:
+    rechts: "<IMT, Stenosen, Plaques>"
+    links: ""
+  carotisbifurkation:
+    rechts: "<Wichtiger Prädilektionsort für Stenosen>"
+    links: "<Wichtiger Prädilektionsort für Stenosen>"
+  aa_carotides_internae:
+    rechts: "<Stenosegrad in %, Flussgeschwindigkeit>"
+    links: ""
+  aa_carotides_externae:
+    rechts: ""
+    links: ""
+  aa_vertebrales:
+    rechts: "<Flussrichtung, Stenosen>"
+    links: ""
+  aa_temporales:
+    rechts: "<Bei V.a. Arteriitis temporalis>"
+    links: "<Bei V.a. Arteriitis temporalis>"
+  plaques: "<Beschreibung von Plaques (echoarm, verkalkt, ulzeriert)>"
+  stenosegrad: ""
+  sonstiges: "<z.B. Verschlüsse, Aneurysmen, Dissektionen>"
+beurteilung: ""

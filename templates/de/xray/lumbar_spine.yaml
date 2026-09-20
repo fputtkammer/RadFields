@@ -1,0 +1,18 @@
+untersuchung: "Röntgen LWS"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "<ap, lateral, Schräg>"
+  lage: ""
+
+befund:
+  alignment: ""
+  wirbelkoerper: ""
+  bandscheibenraeume: ""
+  degeneration: ""
+  sakroiliakalgelenke: ""
+  fremdmaterial: ""
+
+beurteilung: ""

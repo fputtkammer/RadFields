@@ -1,0 +1,29 @@
+untersuchung: "CT Abdomen Urolithiasis"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  nieren:
+    konkremente:
+      - id: ""
+        seite: "links/rechts"
+        lokalisation: "<Niere links/rechts, Nierenbecken, Kalix, Ureterabgang>"
+        groesse_mm: ""
+      - id: ""
+        seite: "links/rechts"
+        lokalisation: "<Niere links/rechts, Nierenbecken, Kalix, Ureterabgang>"
+        groesse_mm: ""
+
+    harnstau: ""
+    kelchruptur: ""
+    perirenales_fettgewebe: ""
+
+beurteilung: ""

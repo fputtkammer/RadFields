@@ -1,0 +1,55 @@
+untersuchung: "CT Abdomen Trauma"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  organ_verletzungen:
+    - id: ""
+      organ: ""
+      beschreibung: ""
+    - id: ""
+      organ: ""
+      beschreibung: ""
+  blutungen:
+    - id: ""
+      lokalisation: ""
+      gefaess: ""
+      aktive_arterielle_blutung: "ja/nein"
+      Pseudoaneurysma: "ja/nein"
+      dissektion: "ja/nein"
+    - id: ""
+      lokalisation: ""
+      gefaess: ""
+      aktive_arterielle_blutung: "ja/nein"
+      Pseudoaneurysma: "ja/nein"
+      dissektion: "ja/nein"
+  peritoneum:
+    freie_luft: ""
+    freie_fluessigkeit: ""
+    haematome: ""
+
+  skelett:
+    frakturen:
+      - id: ""
+        lokalisation: ""
+        beschreibung: ""
+      - id: ""
+        lokalisation: ""
+        beschreibung: ""
+    luxationen:
+      - id: ""
+        lokalisation: ""
+        beschreibung: ""
+      - id: ""
+        lokalisation: ""
+        beschreibung: ""
+
+beurteilung: ""

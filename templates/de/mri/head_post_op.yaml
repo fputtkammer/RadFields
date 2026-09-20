@@ -1,0 +1,25 @@
+untersuchung: "MRT Kopf nach OP"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  op_region:
+    lokalisation: ""
+    resektionshoehle: ""
+    restgewebe: ""
+  blutung: ""
+  diffusionsrestriktion: ""
+  kontrastmittelaufnahme: ""
+  oedem: ""
+  infektzeichen: ""
+  liquorzirkulation: ""
+  shuntlage: ""
+
+beurteilung: ""

@@ -1,0 +1,25 @@
+untersuchung: "MRT Thorax Raumforderung"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  raumforderung:
+    - id: ""
+      lokalisation: ""
+      groesse_mm: ""
+      signalverhalten: ""
+      kontrastmittelaufnahme: ""
+      infiltration: ""
+  lymphknoten: ""
+  pleurabeteiligung: ""
+  thoraxwandinfiltration: ""
+  gefaessbeteiligung: ""
+
+beurteilung: ""

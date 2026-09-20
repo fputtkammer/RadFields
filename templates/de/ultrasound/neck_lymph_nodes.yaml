@@ -1,0 +1,22 @@
+untersuchung: ""
+befunddatum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+
+technik: "<z.B. Gerät, Schallkopf>"
+
+befund:
+  lymphknoten_regionen: "<Beschriebene Halsregionen (z.B. \"Level II-V bds.\", \"submandibulär\", \"supraklavikulär\")>"
+  generelle_beschreibung: ""
+  auffaellige_lymphknoten:
+    - id: ""
+      lokalisation: ""
+      groesse_mm: ""
+      beschreibung: ""
+    - id: ""
+      lokalisation: ""
+      groesse_mm: ""
+      beschreibung: ""
+  sonstiges: ""
+
+beurteilung: ""

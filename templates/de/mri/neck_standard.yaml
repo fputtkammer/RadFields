@@ -1,0 +1,22 @@
+untersuchung: "MRT Hals"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  pharynx_larynx: ""
+  schilddruese: ""
+  speicheldruesen: ""
+  lymphknoten: ""
+  gefaesse: ""
+  hws: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

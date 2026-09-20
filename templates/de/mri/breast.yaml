@@ -1,0 +1,31 @@
+untersuchung: "MRT Mamma"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+  menstruationszyklustag: ""
+
+befund:
+  hintergrundanreicherung: ""
+  drusenparenchym: "<ACR Typ a-d>"
+  laesionen:
+    - id: ""
+      seite: ""
+      lokalisation: ""
+      groesse_mm: ""
+      form: ""
+      begrenzung: ""
+      signalverhalten: ""
+      kontrastmittelkinetik: "<Typ 1-3>"
+      birads: "<BI-RADS 1-6>"
+  lymphknoten_axilla:
+    rechts: ""
+    links: ""
+  implantate: ""
+
+beurteilung: ""

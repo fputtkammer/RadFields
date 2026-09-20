@@ -1,0 +1,33 @@
+untersuchung: "MRT Niere"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  nieren:
+    rechts:
+      groesse: ""
+      parenchym: ""
+    links:
+      groesse: ""
+      parenchym: ""
+  laesionen:
+    - id: ""
+      seite: ""
+      lokalisation: ""
+      groesse_mm: ""
+      signalverhalten: ""
+      kontrastmittelaufnahme: ""
+      bosniak: "<Bosniak I, II, IIF, III, IV>"
+  harnstau: ""
+  nierenarterien: ""
+  nierenvenen: ""
+  nebennieren: ""
+
+beurteilung: ""

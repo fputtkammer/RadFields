@@ -1,0 +1,24 @@
+untersuchung: "<z.B. Röntgen Knie oder Hüfte>"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: ""
+  lage: ""
+  region: ""
+
+befund:
+  seite: ""
+  gelenke:
+    gelenkspalt: ""
+    osteophyten: ""
+    subchondrale_sklerose: ""
+    subchondrale_zysten: ""
+    achsenabweichung: ""
+    ergusszeichen: ""
+  knochen: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

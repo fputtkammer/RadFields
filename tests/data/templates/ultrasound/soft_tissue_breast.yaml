@@ -1,0 +1,33 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-TT
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+
+technik: "" # z.B. Gerät, Schallkopf (Frequenz)
+
+befund:
+  mamma_rechts:
+    parenchymtyp_acr: ""
+    beschreibung_parenchym: ""
+    laesionen:
+      - id: ""
+        lokalisation: ""
+        groesse_mm: ""
+        beschreibung: ""
+        birads_us: ""
+      # - ggf. weitere Läsionen rechts hier hinzufügen
+  mamma_links:
+    parenchymtyp_acr: ""
+    beschreibung_parenchym: ""
+    laesionen:
+      - id: ""
+        lokalisation: ""
+        groesse_mm: ""
+        beschreibung: ""
+        birads_us: ""
+      # - ggf. weitere Läsionen rechts hier hinzufügen
+  lymphknoten_axillaer_rechts: ""
+  lymphknoten_axillaer_links: ""
+  sonstiges: ""
+
+beurteilung: ""

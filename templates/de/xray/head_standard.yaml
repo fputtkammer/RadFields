@@ -1,0 +1,19 @@
+untersuchung: "Röntgen Kopf"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "<ap, lateral, Schädelspezial>"
+  lage: ""
+
+befund:
+  kalotte_und_basis: ""
+  sella_region: ""
+  orbita: ""
+  kiefer_und_kiefergelenke: ""
+  nasennebenhoehlen: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

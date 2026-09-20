@@ -1,0 +1,31 @@
+untersuchung: "MRT Abdomen"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  leber: ""
+  gallenwege: ""
+  gallenblase: ""
+  pankreas: ""
+  milz: ""
+  nebennieren: ""
+  nieren: ""
+  harnwege: ""
+  harnblase: ""
+  beckenorgane: ""
+  gastrointestinaltrakt: ""
+  peritoneum: ""
+  lymphknoten: ""
+  gefaesse: ""
+  wirbelsaeule: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

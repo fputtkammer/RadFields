@@ -1,0 +1,7 @@
+befund:
+  katheterposition: ""
+  embolisationsverfahren: "<TACE, DEB-TACE, Radioembolisation, bland>"
+  embolisationsmaterial: ""
+  angiographie_vor_intervention: ""
+  angiographie_nach_intervention: ""
+  nichtzielgefaesse: ""

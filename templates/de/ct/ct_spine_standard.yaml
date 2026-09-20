@@ -1,0 +1,33 @@
+untersuchung: "CT Wirbelsäule"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  alignment: ""
+  stufenbildung: ""
+  wirbelkoerper: ""
+  degeneration: ""
+  spinalkanal: ""
+  facettengelenke: ""
+  frakturen:
+    - id: ""
+      lokalisation: ""
+      beschreibung: "<Fraktur- bzw. Sinterungsbeschreibung>"
+    - id: ""
+      lokalisation: ""
+      beschreibung: "<Fraktur- bzw. Sinterungsbeschreibung>"
+  osteolysen: ""
+  sklerosen: ""
+
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

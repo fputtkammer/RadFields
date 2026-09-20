@@ -1,0 +1,14 @@
+---
+CT:
+  CT Staging:
+    - Mammakarzinom
+    - Kolonkarzinom
+    - Lungenkarzinom
+  CT Thorax:
+    - placeholder1
+  CT Handgelenk:
+    - placeholder2
+Roentgen:
+  Roentgen Thorax:
+    - placeholder3
+...

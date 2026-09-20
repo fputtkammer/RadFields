@@ -1,0 +1,29 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, Schallkopf (Frequenz), Doppler-Parameter
+befund:
+  untersuchte_extremitaet: "" # z.B. "Rechtes Bein", "Linkes Bein", "Beide Beine"
+  aorta_abdominalis: "" # Durchmesser, Wandbeschaffenheit
+  aa_iliacae:
+    rechts: "" # Flusssignal, Stenose, Verschluss
+    links: ""
+  a_femoralis_communis:
+    rechts: "" # Flusssignal, Stenose, Verschluss
+    links: ""
+  a_femoralis_superficialis:
+    rechts: "" # Flusssignal, Stenose, Verschluss
+    links: ""
+  a_poplitea:
+    rechts: "" # Flusssignal, Stenose, Verschluss, Aneurysma
+    links: ""
+  unterschenkelarterien: # A. tibialis anterior, posterior, A. fibularis
+    rechts: ""
+    links: ""
+  knöchelarterielle_verschlussdrücke: # ABI-Messungen, falls durchgeführt
+    rechts: ""
+    links: ""
+  aneurysmen: "" # Lokalisation, Größe, Wandbeschaffenheit
+  sonstiges: "" # z.B. Pseudoaneurysma nach Punktion
+beurteilung: ""

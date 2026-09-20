@@ -1,0 +1,28 @@
+untersuchung: "MRT Schulter"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  arthrographie: ""
+  bildqualitaet: ""
+
+befund:
+  rotatorenmanschette:
+    m_supraspinatus: ""
+    m_infraspinatus: ""
+    m_subscapularis: ""
+    m_teres_minor: ""
+  bizepssehne: ""
+  labrum: "<SLAP I-IV, Bankart>"
+  knorpel: ""
+  subakromialer_raum: ""
+  ac_gelenk: ""
+  knochen: ""
+  erguss: ""
+  fremdmaterial: ""
+
+beurteilung: ""

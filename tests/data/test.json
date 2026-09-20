@@ -1,0 +1,53 @@
+{
+    "untersuchung": "",
+    "datum": "",
+    "klinische_angaben": "",
+    "fragestellung": "",
+    "psa": "",
+    "mr_psa_dichte": "",
+    "voraufnahmen": "",
+    "vergleich": "",
+    "technik": {
+        "geraet": "",
+        "feldstaerke_in_tesla": "",
+        "sequenzen": [
+            ""
+        ],
+        "kontrastmittel": "",
+        "zusatzmedikation": "",
+        "bildqualitaet": ""
+    },
+    "befund": {
+        "prostatavolumen": "",
+        "prostatagroesse": "",
+        "haemorrhagien": "",
+        "morphologie_periphere_zone": "",
+        "morphologie_transitionalzone": "",
+        "laesionen": [
+            {
+                "laesion_id": "",
+                "lokalisation": "",
+                "groesse_mm": "",
+                "t2w_pirads_befund": "",
+                "dwi_pirads_befund": "",
+                "dce_pirads_befund": "",
+                "kapselbeteiligung": "",
+                "pirads_gesamt": ""
+            }
+        ],
+        "lymphknoten": "",
+        "knochen": "",
+        "organe_kleines_becken": "",
+        "zusatzbefund": ""
+    },
+    "beurteilung": {
+        "pirads": [
+            {
+                "laesion_id": "",
+                "lokalisation": "",
+                "pirads_score": ""
+            }
+        ],
+        "gesamtbeurteilung": ""
+    }
+}

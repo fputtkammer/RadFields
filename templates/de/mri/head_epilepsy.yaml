@@ -1,0 +1,24 @@
+untersuchung: "MRT Kopf Epilepsie"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  hippocampus:
+    volumen: ""
+    signal: ""
+    interne_struktur: ""
+  temporallappen: ""
+  kortikale_dysplasien: ""
+  heterotopien: ""
+  tumoroese_laesionen: ""
+  gefaessmalformationen: ""
+  gliose: ""
+
+beurteilung: ""

@@ -1,0 +1,51 @@
+untersuchung: "MRT Ganzkörper"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  kopf_hirn: ""
+  hals: ""
+  thorax:
+    lunge: ""
+    mediastinum: ""
+    pleura: ""
+    herz_perikard: ""
+  abdomen:
+    leber: ""
+    gallenwege: ""
+    pankreas: ""
+    milz: ""
+    nebennieren: ""
+    nieren: ""
+    gastrointestinaltrakt: ""
+  becken: ""
+  lymphknoten: ""
+  knochen_und_knochenmark:
+    fokale_laesionen:
+      - id: ""
+        lokalisation: ""
+        groesse_mm: ""
+        signalverhalten: ""
+      - id: ""
+        lokalisation: ""
+        groesse_mm: ""
+        signalverhalten: ""
+    osteolysen:
+      - id: ""
+        lokalisation: ""
+        groesse_mm: ""
+      - id: ""
+        lokalisation: ""
+        groesse_mm: ""
+    diffuse_infiltration: ""
+  weichteile: ""
+  gefaesse: ""
+
+beurteilung: ""

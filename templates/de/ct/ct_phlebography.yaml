@@ -1,0 +1,59 @@
+untersuchung: "CT Phlebographie"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  abdeckung: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  gefaesse:
+    venen:
+      vena_cava:
+        vena_cava_superior: ""
+        vena_cava_inferior: ""
+      obere_extremitaet:
+        vena_subclavia_rechts: ""
+        vena_subclavia_links: ""
+        vena_brachialis_rechts: ""
+        vena_brachialis_links: ""
+        vena_cephalica_rechts: ""
+        vena_cephalica_links: ""
+        vena_basilica_rechts: ""
+        vena_basilica_links: ""
+      untere_extremitaet:
+        vena_iliaca_communis_rechts: ""
+        vena_iliaca_communis_links: ""
+        vena_femoralis_communis_rechts: ""
+        vena_femoralis_communis_links: ""
+        vena_femoralis_superficialis_rechts: ""
+        vena_femoralis_superficialis_links: ""
+        vena_saphena_magna_rechts: ""
+        vena_saphena_magna_links: ""
+        vena_saphena_parva_rechts: ""
+        vena_saphena_parva_links: ""
+      viszerale_gefaesse:
+        vena_renalis_rechts: ""
+        vena_renalis_links: ""
+        vena_mesenterica: ""
+        vena_portae: ""
+
+    anatomische_varianten: ""
+    thrombose:
+      - id: ""
+        lokation: ""
+        ausdehnung: ""
+        begleitbefunde: ""
+      - id: ""
+        lokation: ""
+        ausdehnung: ""
+        begleitbefunde: ""
+    venoese_fuellungsdefekte: ""
+    kompressionen: ""
+
+beurteilung: ""

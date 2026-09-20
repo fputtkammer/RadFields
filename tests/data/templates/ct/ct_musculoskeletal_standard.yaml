@@ -1,0 +1,48 @@
+untersuchung: ""
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  lokalisation: "<was wird durch die Untersuchung abgedeckt>"
+  raumforderung: ""
+  frakturen:
+    - id: ""
+      lokalisation: ""
+      morphologie: "<z.B. Quer-, Schräg-, Spiralfraktur>"
+      verschiebung: "<z.B. disloziert, nicht disloziert>"
+      gelenkbeteiligung: ""
+    - id: ""
+      lokalisation: ""
+      morphologie: ""
+      verschiebung: ""
+      gelenkbeteiligung: ""
+  osteosynthese:
+    - id: ""
+      typ: "<z.B. Platte, Schraube, Marknagel>"
+      lokalisation: ""
+      beurteilung: "<z.B. Lagebeurteilung, Komplikationen>"
+    - id: ""
+      typ: ""
+      lokalisation: ""
+      beurteilung: ""
+  prothesen:
+    - id: ""
+      typ: "<z.B. Hüftprothese, Knieprothese>"
+      lokalisation: ""
+      beurteilung: "<z.B. Lagebeurteilung, Lockerung>"
+    - id: ""
+      typ: ""
+      lokalisation: ""
+      beurteilung: ""
+  fremdmaterial: ""
+  weichteile: ""
+
+beurteilung: ""

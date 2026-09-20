@@ -1,0 +1,80 @@
+untersuchung: "CT Polytrauma"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  kopf:
+    blutung: ""
+    ischaemie: ""
+    hirnparenchym: ""
+
+  thorax:
+    lunge:
+      parenchym: ""
+      kontussion: ""
+      pneumothorax: ""
+      blutung: ""
+    mediastinum: ""
+    herz:
+      verletzung: ""
+      perikard: ""
+
+  abdomen:
+    blutung: ""
+    organverletzungen:
+      - id: ""
+        typ: "<z.B. Leber, Milz, Niere>"
+        verletzung: "<z.B. Kontusion, Riss>"
+      - id: ""
+        typ: ""
+        verletzung: ""
+    freie_luft: ""
+
+  gefaesse:
+    blutung: ""
+    dissektionen: ""
+    rupturen: ""
+    aneurysma: ""
+    stenosen: ""
+
+  knochen:
+    frakturen:
+      - id: ""
+        lokalisation: "<z.B. HWS, femur, Rippe>"
+        morphologie: "<z.B. disloziert, Trümmerfraktur>"
+        instabilität: "<ja/nein>"
+      - id: ""
+        lokalisation: ""
+        morphologie: ""
+        instabilität: ""
+    luxationen:
+      - id: ""
+        lokalisation: ""
+        richtung: "<z.B. dorsal, ventral>"
+      - id: ""
+        lokalisation: ""
+        richtung: ""
+
+  weichteile: ""
+
+  fremdmaterial:
+    therapiehilfen:
+      - id: ""
+        typ: "<z.B. Beatmungsschlauch, ZVK>"
+        lokalisation: ""
+        lage_korrekt: "<ja/nein>"
+      - id: ""
+        typ: ""
+        lokalisation: ""
+        lage_korrekt: "<ja/nein>"
+    fremdkoerper: ""
+
+beurteilung: ""

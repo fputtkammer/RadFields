@@ -1,0 +1,13 @@
+modality1:
+  exam_type1:
+  - diagnosis1
+  exam_type2:
+  - diagnosis1
+  - diagnosis2
+modality2:
+  exam_type1: diagnosis1
+  exam_type2:
+  - diagnosis1
+  - diagnosis2
+modality3:
+  exam_type1

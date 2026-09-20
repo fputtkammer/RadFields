@@ -1,0 +1,56 @@
+untersuchung: ""
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "<nativ, arteriell, portalvenös, spaet>"
+  rekonstruktionen: "<Weichteil, ggf. Knochen>"
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  leber: 
+    parenchym: ""
+    raumforderung: ""
+  galle:
+    gallenwege: ""
+    gallenblase: ""
+  pankreas: 
+    parenchym: ""
+    raumforderung: ""
+  milz: 
+    parenchym: ""
+    raumforderung: ""
+  nebennieren: 
+    parenchym: ""
+    raumforderung: ""
+  nieren: 
+    parenchym: ""
+    raumforderung: ""
+  harnwege: 
+    harnstau: ""  
+  harnblase: 
+    fuellung: ""
+  beckenorgane: 
+    prostata: ""
+    uterus: ""
+    ovarien: ""
+  gastrointestinaltrakt: 
+    magen: ""
+    duenndarm: ""
+    colon: ""
+  peritoneum: ""
+  gefaesse: ""
+  lymphknoten: ""
+
+  skelett:
+    wirbelsaeule: ""
+    becken: ""
+  
+  lunge: ""
+  fremdmaterial: ""
+  weichteile: ""
+
+beurteilung: ""

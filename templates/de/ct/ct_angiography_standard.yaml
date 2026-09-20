@@ -1,0 +1,44 @@
+untersuchung: "CT Angiographie"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  aneurysmen:
+    - id: ""
+      lokation_und_groesse: ""
+      begleitbefunde: ""
+    - id: ""
+      lokation_und_groesse: ""
+      begleitbefunde: ""
+
+  stenosen_okklusionen:
+    - id: ""
+      lokation: ""
+      stenosegrad: ""
+      plaque_charakteristika: ""
+    - id: ""
+      lokation: ""
+      stenosegrad: ""
+      plaque_charakteristika: ""
+
+  stents_bypaesse:
+    - id: ""
+      lokation: ""
+      stenosegrad: ""
+    - id: ""
+      lokation: ""
+      stenosegrad: ""
+  kollateralen: ""
+  anatomische_varianten: ""
+  weichteile: ""
+  venoeses_system: ""
+
+beurteilung: ""

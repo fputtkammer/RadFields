@@ -1,0 +1,24 @@
+untersuchung: "MRT Wirbelsaeule"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  alignment: ""
+  wirbelkoerper: ""
+  bandscheiben: ""
+  spinalkanal: ""
+  neuroforamina: ""
+  rueckenmark: ""
+  facettengelenke: ""
+  baender: ""
+  paravertebrale_weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

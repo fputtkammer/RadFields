@@ -1,0 +1,24 @@
+untersuchung: "MRT Thorax Angiographie"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  aorta:
+    morphologie: ""
+    durchmesser_mm: ""
+    aneurysma: ""
+    dissektion: "<Stanford A/B>"
+  pulmonalarterien: ""
+  obere_hohlvene: ""
+  abgangsgefaesse: ""
+  stenosen: ""
+  thromben: ""
+
+beurteilung: ""

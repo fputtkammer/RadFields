@@ -1,0 +1,30 @@
+untersuchung: "MRT Pankreas"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  pankreasparenchym:
+    groesse: ""
+    signal: ""
+    atrophie: ""
+  laesion:
+    - id: ""
+      lokalisation: "<Caput, Corpus, Cauda>"
+      groesse_mm: ""
+      signalverhalten: ""
+      kontrastmittelaufnahme: ""
+      gefaessbeteiligung: "<Kontakt, Ummauerung, Infiltration>"
+  d_pancreaticus: ""
+  d_choledochus: ""
+  zysten: ""
+  gefaesse: ""
+  lymphknoten: ""
+
+beurteilung: ""

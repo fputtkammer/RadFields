@@ -1,0 +1,20 @@
+untersuchung: ""
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  bildgebung: "<CT, Durchleuchtung>"
+  nadeltyp: ""
+  medikament: "<z.B. Triamcinolon, Bupivacain, NaCl>"
+  injektionsvolumen_ml: ""
+
+befund:
+  zielstruktur: "<Facettengelenk, Neuroforamen, Epiduralraum, ISG, Nervenwurzel>"
+  hoehe: "<z.B. L4/L5, L5/S1, C5/C6>"
+  seite: "<rechts, links, beidseits>"
+  nadellage: ""
+  kontrastmittelverteilung: ""
+  komplikationen: ""
+
+beurteilung: ""

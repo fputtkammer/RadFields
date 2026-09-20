@@ -1,0 +1,22 @@
+befund:
+  stenosen:
+    - id: ""
+      lokalisation: ""
+      grad_prozent: ""
+      morphologie: "<konzentrisch, exzentrisch, kurzstreckig, langstreckig>"
+    - id: ""
+      lokalisation: ""
+      grad_prozent: ""
+      morphologie: "<konzentrisch, exzentrisch, kurzstreckig, langstreckig>"
+  aneurysmen:
+    - id: ""
+      lokalisation: ""
+      groesse_mm: ""
+    - id: ""
+      lokalisation: ""
+      groesse_mm: ""
+  embolisation:
+    zielgefaess: ""
+    material: "<Coils, Partikel, Gewebekleber, Plugs>"
+    ergebnis: "<vollstaendiger Verschluss, Reststrom>"
+  kollateralen: ""

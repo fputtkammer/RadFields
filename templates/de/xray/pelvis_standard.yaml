@@ -1,0 +1,18 @@
+untersuchung: "Röntgen Becken"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "<ap, Inlet, Outlet, Judet optional>"
+  lage: ""
+
+befund:
+  beckenring: ""
+  hueftgelenke: ""
+  sakrum: ""
+  symphyse: ""
+  weichteile_und_kalzifikationen: ""
+  fremdmaterial: ""
+
+beurteilung: ""

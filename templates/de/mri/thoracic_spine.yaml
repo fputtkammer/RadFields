@@ -1,0 +1,19 @@
+untersuchung: "MRT BWS"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  myelopathie: ""
+  bandscheiben: ""
+  wirbelkoerperfrakturen: ""
+  spinalkanalstenose: ""
+  fremdmaterial: ""
+
+beurteilung: ""

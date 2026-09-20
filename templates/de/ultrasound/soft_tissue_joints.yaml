@@ -1,0 +1,17 @@
+untersuchung: ""
+befunddatum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+
+technik: "<z.B. Gerät, Schallkopf (Frequenz)>"
+
+befund:
+  untersuchtes_gelenk: "<Genaue Bezeichnung (z.B. \"Kniegelenk rechts\", \"Sprunggelenk links\")>"
+  gelenkkapsel_beschreibung: ""
+  erguss: ""
+  synovialis: ""
+  knorpel_beschreibung: ""
+  baender_sehnen: ""
+  umliegende_strukturen: ""
+
+beurteilung: ""

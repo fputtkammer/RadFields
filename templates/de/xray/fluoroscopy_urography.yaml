@@ -1,0 +1,21 @@
+untersuchung: "Urographie"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  kontrastmittel: ""
+  applikationsweg: "intravenoes"
+  zeitpunkte: "<Nephro, Pyelo, Spät>"
+  durchleuchtungszeit_dosis: ""
+
+befund:
+  nieren_und_parenchym: ""
+  kelch_und_beckensystem: ""
+  ureterenverlauf: ""
+  harnblase: ""
+  abflussstoerung_oder_leck: ""
+  steine: ""
+  fremdmaterial: ""
+
+beurteilung: ""

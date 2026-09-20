@@ -1,0 +1,24 @@
+untersuchung: "CT Nasennebenhöhlen"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  sinus_maxillaris: ""
+  sinus_frontalis: ""
+  sinus_ethmoidales: ""
+  sinus_sphenoidalis: ""
+  schleimhautschwellungen: ""
+  sekret: ""
+  ostiomeatale_einheit: ""
+  knochen: ""
+  fremdmaterial: ""
+
+beurteilung: ""

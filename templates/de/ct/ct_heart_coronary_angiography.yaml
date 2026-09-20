@@ -1,0 +1,86 @@
+untersuchung: "CT Koronarangiographie (CCTA)"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  abdeckung: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  ecg_gating: ""
+  dosis: ""
+
+befund:
+  herz:
+    koronararterien:
+      agatston_calcium_score:
+        score: ""
+        perzentile: ""
+
+      versorgungstyp: "<rechtsversorger, linksversorger, ausgeglichen>"
+
+      rca:
+        gesamt:
+          stenosegrad: "<Stenosegrad für das gesamte Gefäß, falls keine Segmentbefunde vorliegen>"
+          plaque_typ: "<Plaque-Typ und Lokalisation für das gesamte Gefäß, falls keine detaillierte Beschreibung vorhanden ist>"
+
+        proximal:
+          stenosegrad: ""
+          plaque_typ: ""
+        mittel:
+          stenosegrad: ""
+          plaque_typ: ""
+        distal:
+          stenosegrad: ""
+          plaque_typ: ""
+        interventricularis_posterior:
+          stenosegrad: ""
+          plaque_typ: ""
+      left_main:
+        stenosegrad: ""
+        plaque_typ: ""
+      lad:
+        gesamt:
+          stenosegrad: ""
+          plaque_typ: ""
+        proximal:
+          stenosegrad: ""
+          plaque_typ: ""
+        mittel:
+          stenosegrad: ""
+          plaque_typ: ""
+        distal:
+          stenosegrad: ""
+          plaque_typ: ""
+        diagonalast_1:
+          stenosegrad: ""
+          plaque_typ: ""
+        diagonalast_2:
+          stenosegrad: ""
+          plaque_typ: ""
+        ramus_intermedius:
+          stenosegrad: ""
+          plaque_typ: ""
+      lcx:
+        gesamt:
+          stenosegrad: ""
+          plaque_typ: ""
+        proximal:
+          stenosegrad: ""
+          plaque_typ: ""
+        distal:
+          stenosegrad: ""
+          plaque_typ: ""
+        marginalis_sinistra:
+          stenosegrad: ""
+          plaque_typ: ""
+        posterolateralast:
+          stenosegrad: ""
+          plaque_typ: ""
+
+    bypass_und_stents: ""
+    variante_anatomie: ""
+
+beurteilung: ""

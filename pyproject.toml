@@ -1,0 +1,77 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rad-fields"
+dynamic = ["version"]
+description = 'A hierarchical LLM pipeline for automated classification and template-based structuring of German radiology reports using open-source models'
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Friedrich Puttkammer", email = "friedrich-leonard.puttkammer@charite.de" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "langchain==1.2.18",
+  "langchain-ollama==1.1.0",
+  "langchain-openai==1.2.1",
+  "pydantic==2.12.5",
+  "PyYAML==6.0.2"
+]
+
+[project.optional-dependencies]
+test = ["pytest", "pandas"]
+
+[project.urls]
+Documentation = "https://github.com/fputtkammer/llm_report_structuring#readme"
+Issues = "https://github.com/fputtkammer/llm_report_structuring/issues"
+Source = "https://github.com/fputtkammer/llm_report_structuring"
+
+[tool.hatch.version]
+path = "src/rad_fields/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/rad_fields tests}"
+
+[tool.coverage.run]
+source_pkgs = ["rad_fields", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/rad_fields/__about__.py",
+]
+
+[tool.coverage.paths]
+rad_fields = ["src/rad_fields", "*/rad-fields/src/rad_fields"]
+tests = ["tests", "*/rad-fields/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/unit"]
+pythonpath = [
+    ".",
+    "tests/unit",
+    "src"
+]
+addopts = [
+    "--import-mode=importlib",
+]

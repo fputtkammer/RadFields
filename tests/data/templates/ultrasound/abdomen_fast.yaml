@@ -1,0 +1,21 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, Schallkopf (Frequenz)
+befund:
+  perikardialer_erguss: ""
+  pleuraler_erguss:
+    rechts: ""
+    links: ""
+  freie_fluessigkeit_abdomen:
+    morison_pouch: ""
+    koller_pouch: ""
+    douglas_raum: ""
+    weitere_lokalisationen: ""
+  parenchymatoese_organe:
+    leber: ""
+    milz: ""
+    nieren: ""
+  sonstiges: ""
+beurteilung: ""

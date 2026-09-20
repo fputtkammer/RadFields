@@ -1,0 +1,19 @@
+untersuchung: "CT Kopf nach OP"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "<nativ, arteriell, venoes, spaet>"
+  rekonstruktionen: "<axial, koronal, sagittal; Knochen/Weichteil>"
+  schichtdicke_mm: ""
+  kontrastmittel: "<Praeparat, Volumen, Fluss, Timing>"
+  dosis: "<CTDIvol, DLP>"
+
+befund:
+  op_region: ""
+  postoperative_luft: ""
+  oedem: ""
+  infektzeichen: ""
+
+beurteilung: ""

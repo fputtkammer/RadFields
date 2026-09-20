@@ -1,0 +1,22 @@
+untersuchung: "MRT Fuss"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  knochen: ""
+  gelenke: ""
+  plantarfaszie: ""
+  sehnen: ""
+  morton_neurom: ""
+  weichteile: ""
+  erguss: ""
+  fremdmaterial: ""
+
+beurteilung: ""

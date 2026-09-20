@@ -1,0 +1,20 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+
+technik: "" # z.B. Gerät, Schallkopf
+
+befund:
+  parotis_beidseits: ""
+  submandibularis_beidseits: ""
+  sublingualis_beidseits: ""
+  pathologische_befunde:
+    - id: "" # Eindeutige Bezeichnung, z.B. "Stein 1", "Raumforderung Parotis rechts"
+      lokalisation: "" # Genaue Drüse und Ort innerhalb der Drüse
+      groesse_mm: "" # Größe in mm
+      beschreibung: "" # Freitext für Details (z.B. Stein schattengebend?, RF solide/zystisch?, Abszessformation?, Gangdilatation?)
+    # - ggf. weitere pathologische Befunde hier hinzufügen
+  umgebende_strukturen: ""
+
+beurteilung: ""

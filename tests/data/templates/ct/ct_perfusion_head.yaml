@@ -1,0 +1,24 @@
+untersuchung: "CT Perfusion Kopf"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: "<Parameterkarten generiert>"
+  schichtdicke_mm: ""
+  kontrastmittel: "<Volumen, Fluss>"
+  dosis: ""
+  parameterkarten: "<CBF, CBV, MTT, TTP>"
+
+befund:
+  qualitaet_und_artefakte: ""
+  cbf: "<Cerebraler Blutfluss>"
+  cbv: "<Cerebrales Blutvolumen>"
+  mtt: "<Mittlere Transitzeit>"
+  ttp: "<Zeit bis max. Anstieg>"
+  ttd: "<Zeit bis Abfluss>"
+  kern_und_penumbra: "<wenn möglich mit ml angabe>"
+  ausdehnung: ""
+
+beurteilung: ""

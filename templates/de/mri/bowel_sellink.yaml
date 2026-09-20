@@ -1,0 +1,29 @@
+untersuchung: "MRT Sellink"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  enterale_fuellung: ""
+  bildqualitaet: ""
+
+befund:
+  duenndarm:
+    distension: ""
+    wanddicke: ""
+    wandanreicherung: ""
+    stenosen: ""
+    fisteln: ""
+  colon: ""
+  mesenterium:
+    lymphknoten: ""
+    gefaesse: ""
+    fettgewebsoedem: ""
+  aszites: ""
+  abszesse: ""
+  befallsmuster: "<kontinuierlich, diskontinuierlich>"
+
+beurteilung: ""

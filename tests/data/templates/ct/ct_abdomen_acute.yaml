@@ -1,0 +1,53 @@
+untersuchung: ""
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  abdeckung: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  galle:
+    konkremente: ""
+    cholezystitis: ""
+  pankreas:
+    pankreatitis: ""
+    nekrosen: ""
+    pseudozysten: ""
+  niere:
+    konkremente: ""
+    hydronephrose: ""
+    entzuendung: ""
+  harnwege:
+    harnstau: ""
+    hydronephrose: ""
+    entzuendung: ""
+  milz:
+    ruptur: ""
+    infarkt: ""
+  gastrointestinaltrakt:
+    ileus:
+    perforation: "ja/nein"
+    ischaemie: ""
+    entzuendung:
+      gastritis: ""
+      colitis: ""
+      appendizitis: ""
+      divertikulitis: ""
+  abszess:
+    - id: ""
+      organ: ""
+      groesse_mm: ""
+    - id: ""
+      organ: ""
+      groesse_mm: ""
+
+  weichteile:
+    hernien: ""
+
+beurteilung: ""

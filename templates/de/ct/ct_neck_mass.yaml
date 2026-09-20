@@ -1,0 +1,24 @@
+untersuchung: "CT Hals Raumforderung"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  tumor:
+    primaerlaesion: ""
+    metastasen: ""
+    ausdehnung: ""
+    infiltration: ""
+    beziehung_zu_gefaessen_und_nerven: ""
+  operation:
+    art_der_operation: ""
+    postoperative_veraenderungen: ""
+
+beurteilung: ""

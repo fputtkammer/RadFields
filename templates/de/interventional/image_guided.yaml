@@ -1,0 +1,26 @@
+untersuchung: ""
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  bildgebung: "<CT, Ultraschall, MRT, Durchleuchtung>"
+  nadeltyp: ""
+  drainagegroesse: ""
+
+befund:
+  interventionstyp: "<Biopsie, Drainage, Punktion, Aspiration>"
+  zielstruktur:
+    organ: ""
+    lokalisation: ""
+    groesse_mm: ""
+  zugangsweg: ""
+  durchfuehrung: ""
+  proben:
+    anzahl: ""
+    qualitaet: ""
+  drainagelage: ""
+  ergebnis: ""
+  komplikationen: ""
+
+beurteilung: ""

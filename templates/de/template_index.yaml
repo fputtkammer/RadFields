@@ -1,0 +1,1095 @@
+Ultraschall:
+  - Type: US_Hals
+    Templates:
+      - name: Schilddrüse
+        parent: false
+        children: false
+        filepath: ultrasound/neck_thyroid.yaml
+        explanation: Untersuchung der Schilddrüse bei V.a. Funktionsstörungen (Hyperthyreose, Hypothyreose), Autoimmunerkrankungen (Hashimoto, M. Basedow), Knoten, Zysten, Struma, Malignome. Verlaufskontrollen.
+      - name: Halslymphknoten
+        parent: false
+        children: false
+        filepath: ultrasound/neck_lymph_nodes.yaml
+        explanation: Beurteilung von Größe, Form, Struktur und Vaskularisation der Halslymphknoten bei V.a. Entzündung, Metastasierung oder Lymphom. Gezielte Suche bei bekannten Primärtumoren.
+      - name: Speicheldrüsen
+        parent: false
+        children: false
+        filepath: ultrasound/neck_salivary_glands.yaml
+        explanation: Untersuchung der Glandula parotis, submandibularis und sublingualis bei V.a. Sialolithiasis (Steine), Sialadenitis (Entzündung), Abszess oder Tumoren.
+  - Type: US_Weichteile
+    Templates:
+      - name: Mamma
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_breast.yaml
+        explanation: Ergänzung zur Mammographie, Brustkrebsvorsorge oder -nachsorge, Abklärung tastbarer Befunde, Zysten, Tumoren, Mastitis. Beurteilung der axillären Lymphknoten.
+      - name: Weichteilraumforderungen
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_lesion.yaml
+        explanation: Abklärung unklarer Schwellungen, Raumforderungen (z.B. Lipom, Atherom, Abszess, Hämatom, Serom, Tumor), Fremdkörperlokalisation.
+      - name: Muskuloskelettal (ohne Gelenke)
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_musculoskeletal.yaml
+        explanation: Beurteilung von Muskeln und Sehnen bei V.a. Ruptur, Tendinitis, Tendinose, Bursitis, Muskelverletzung (z.B. Rotatorenmanschette, Achillessehne, Bizepssehne).
+      - name: Nervenkompression
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_nerve_compression.yaml
+        explanation: Darstellung peripherer Nerven zur Abklärung von Kompressionssyndromen (z.B. Karpaltunnelsyndrom, Sulcus-ulnaris-Syndrom).
+      - name: Hernien
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_hernia.yaml
+        explanation: Nachweis oder Ausschluss von Hernien (Leistenhernie, Nabelhernie, Narbenhernie, Femoralhernie).
+      - name: Gelenke
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_joints.yaml
+        explanation: Beurteilung von Gelenkstrukturen bei V.a. Erguss, Synovitis, Arthritis, Baker-Zyste, freie Gelenkkörper, Knorpelschäden (begrenzt).
+      - name: Rheuma Hände
+        parent: false
+        children: false
+        filepath: ultrasound/soft_tissue_hands_rheumatology.yaml
+        explanation: Beurteilung rheumatischer Veränderungen der Hände, insbesondere der Fingergelenke und Sehnen.
+  - Type: US_Abdomen
+    Templates:
+      - name: Abdomen
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_standard.yaml
+        explanation: Standarduntersuchung des Abdomens. Leber (Fettleber, Zirrhose, Raumforderungen), Gallenblase/-wege (Steine, Entzündung), Pankreas (Pankreatitis, Tumoren), Milz (Größe, Struktur), Nieren (Stauung, Zysten, Tumoren), Aorta abdominalis.
+      - name: Urogenitaltrakt
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_urogenital.yaml
+        explanation: Fokussierte Untersuchung von Nieren, Harnblase, (bei Männern Prostata transabdominal), (bei Frauen Uterus/Adnexe transabdominal) bei V.a. Harnstau, Nierensteine, Tumoren, Zysten, Restharnbestimmung.
+      - name: Gynäkologisch (transvaginal/transabdominal)
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_gynecological.yaml
+        explanation: Gezielte Untersuchung von Uterus, Endometrium, Ovarien und Adnexen, meist transvaginal, zur Abklärung von Blutungsstörungen, Zysten, Myomen, Tumoren, Extrauteringravidität.
+      - name: Trauma (FAST)
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_fast.yaml
+        explanation: Fokussierte Untersuchung nach Trauma zum Nachweis/Ausschluss freier Flüssigkeit in Perikard, Pleura, Peritonealhöhle (Morison-Tasche, Koller-Pouch, Douglas-Raum) - Focused Assessment with Sonography for Trauma.
+      - name: Transplantatkontrolle
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_transplant.yaml
+        explanation: Verlaufskontrolle von Nieren-, Leber- oder Pankreastransplantaten (Perfusion mittels Doppler/Duplex, Parenchymstruktur, Komplikationen wie Abstoßung, Stenose, Thrombose).
+      - name: Kontrastmittel (CEUS)
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_ceus.yaml
+        explanation: Charakterisierung fokaler Läsionen (v.a. Leber, Niere) mittels Ultraschall-Kontrastmittel zur Differenzierung benigne/maligne.
+      - name: Elastographie
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_elastography.yaml
+        explanation: Messung der Gewebesteifigkeit, v.a. zur Beurteilung des Leberfibrosegrades.
+      - name: Interventionelle Planung/Kontrolle
+        parent: false
+        children: false
+        filepath: ultrasound/abdomen_intervention.yaml
+        explanation: Sonographisch gesteuerte Punktionen (Aszites, Pleura), Drainagenanlagen, Biopsien, Zystenaspirationen.
+      - name: Pädiatrie Abdomen
+        parent: false
+        children: false
+        filepath: ultrasound/pediatric_abdomen.yaml
+        explanation: Spezifische pädiatrische Fragestellungen wie Pylorusstenose, Invagination, Appendizitis.
+      - name: Pädiatrie Hüfte
+        parent: false
+        children: false
+        filepath: ultrasound/pediatric_hip.yaml
+        explanation: Spezifische pädiatrische Fragestellungen nach Hüftdysplasie (Screening nach Graf).
+  - Type: US_Gefaesse
+    Templates:
+      - name: Venen Bein (Thromboseausschluss)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_vein_leg.yaml
+        explanation: Duplexsonographie der tiefen und oberflächlichen Beinvenen zum Ausschluss oder Nachweis einer tiefen Venenthrombose (TVT) oder Varikophlebitis.
+      - name: Venen Arm (Thromboseausschluss)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_vein_arm.yaml
+        explanation: Duplexsonographie der tiefen und oberflächlichen Armvenen zum Ausschluss oder Nachweis einer Thrombose, oft bei ZVK-Trägern oder nach Punktionen.
+      - name: Arterien Bein (pAVK, Aneurysma, Entzündung)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_artery_leg.yaml
+        explanation: Duplex-/Dopplersonographie der Becken- und Beinarterien zur Abklärung von Stenosen, Verschlüssen (pAVK), Aneurysmen, Vaskulitis oder Verletzungsfolgen (z.B. Pseudoaneurysma).
+      - name: Arterien Arm (Stenose, Aneurysma, Entzündung)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_artery_arm.yaml
+        explanation: Duplex-/Dopplersonographie der Arm- und Schulterarterien zur Abklärung von Stenosen (z.B. Subclavian-Steal-Syndrom), Aneurysmen, Vaskulitis oder Verletzungsfolgen.
+      - name: Extrakranielle Hirnarterien (Carotis/Vertebralis)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_neck.yaml
+        explanation: Duplex-/Dopplersonographie der A. carotis communis, interna, externa und A. vertebralis zur Detektion von Stenosen, Plaques, Dissektionen. Beurteilung der A. temporalis bei V.a. Arteriitis temporalis.
+      - name: Aorta abdominalis (Screening/Kontrolle)
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_aorta.yaml
+        explanation: Messung des Aortendurchmessers zum Screening oder zur Verlaufskontrolle eines Aortenaneurysmas (AAA).
+      - name: Shunt-/Transplantatgefäßkontrolle
+        parent: false
+        children: false
+        filepath: ultrasound/vascular_shunt.yaml
+        explanation: Duplexsonographische Beurteilung von Dialyseshunts (AV-Fistel, Graft) oder der Gefäßversorgung von Transplantaten (z.B. Nierentransplantatarterie/-vene) auf Funktion, Stenosen, Thrombosen.
+  - Type: US_Thorax
+    Templates:
+      - name: Lungen
+        parent: false
+        children: false
+        filepath: ultrasound/chest_lungs.yaml
+        explanation: Nachweis, Quantifizierung und Beurteilung von Pleuraergüssen, Pleuritis, Pleuraschwarten, Ausschluss/Diagnose eines Pneumothorax, Pneumonie.
+  - Type: US_Herz
+    Templates:
+      - name: TTE Standard
+        parent: false
+        children: false
+        filepath: ultrasound/cardiac_tte.yaml
+        explanation: Transthorakale Echokardiographie zur Beurteilung von Herzgröße, Pumpfunktion (EF), Klappenfunktion, Perikarderguss.
+      - name: TEE
+        parent: false
+        children: false
+        filepath: ultrasound/cardiac_tee.yaml
+        explanation: Transösophageale Echokardiographie zur detaillierteren Beurteilung, v.a. Klappen, Vorhofohr, Endokarditis.
+
+Röntgen:
+  - Type: Röntgen Thorax
+    Templates:
+      - name: Thorax Standard
+        parent: false
+        children:
+          - Hemithorax
+        filepath: xray/chest_standard.yaml
+        explanation: Standardaufnahme des Thorax zur Beurteilung von Lunge, Herz, Mediastinum und Skelett. Mit oder ohne Seitaufnahme.
+
+      - name: Hemithorax
+        parent: Thorax Standard
+        children: false
+        filepath: xray/chest_hemithorax.yaml
+        explanation: Einseitige Aufnahme des Thorax zur Beurteilung von Rippenfrakturen.
+
+  - Type: Röntgen Skelett
+    Templates:
+      - name: Röntgen Extremitäten
+        parent: false
+        children:
+          - Röntgen Extremitäten Trauma
+          - Röntgen Extremitäten Rheuma
+          - Röntgen Extremitäten Arthrose
+          - Röntgen Extremitäten nach OP
+        filepath: xray/extremities_standard.yaml
+        explanation: Röntgenaufnahmen der Extremitäten (Arme, Beine, Gelenke).
+
+      - name: Röntgen Becken
+        parent: false
+        children:
+          - Röntgen Becken Trauma
+          - Röntgen Becken Rheuma
+        filepath: xray/pelvis_standard.yaml
+        explanation: Röntgenaufnahme des Beckens.
+
+      - name: Röntgen Wirbelsäule
+        parent: false
+        children:
+          - Röntgen HWS
+          - Röntgen BWS
+          - Röntgen LWS
+        filepath: xray/spine_standard.yaml
+        explanation: Aufnahmen der Wirbelsäule zur Beurteilung von Frakturen, Luxationen, Arthrose und rheumatischen Veränderungen.
+
+      # CHILD TEMPLATES nach klinischer Fragestellung
+      - name: Röntgen Extremitäten Trauma
+        parent: Röntgen Extremitäten
+        children: false
+        filepath: xray/extremities_trauma.yaml
+        explanation: Aufnahmen der Extremitäten zur Beurteilung von Frakturen und Luxationen.
+
+      - name: Röntgen Extremitäten Rheuma
+        parent: Röntgen Extremitäten
+        children: false
+        filepath: xray/extremities_rheumatology.yaml
+        explanation: Spezielle Aufnahmen der Extremitäten bei rheumatischen Erkrankungen zur detaillierten Beurteilung von Erosionen, Gelenkspaltweite, Deformitäten und Subluxationen.
+
+      - name: Röntgen Extremitäten Arthrose
+        parent: Röntgen Extremitäten
+        children: false
+        filepath: xray/extremities_arthritis.yaml
+        explanation: Aufnahmen der Extremitäten zur Beurteilung degenerativer Gelenkveränderungen, Gelenkspalteinengung und Osteophyten.
+
+      - name: Röntgen Extremitäten nach OP
+        parent: Röntgen Extremitäten
+        children: false
+        filepath: xray/extremities_post_op.yaml
+        explanation: Aufnahmen der Extremitäten nach chirurgischen Eingriffen zur Beurteilung von Osteosynthesematerial, Prothesen (TEP), Frakturheilung und Komplikationen.
+
+      - name: Röntgen Becken Trauma
+        parent: Röntgen Becken
+        children: false
+        filepath: xray/pelvis_trauma.yaml
+        explanation: Aufnahme des Beckens zur Beurteilung von Frakturen, Luxationen und Osteosynthesematerial.
+
+      - name: Röntgen Becken Rheuma
+        parent: Röntgen Becken
+        children: false
+        filepath: xray/pelvis_rheumatology.yaml
+        explanation: Spezielle Aufnahme des Beckens bei rheumatischen Erkrankungen zur Beurteilung von Sakroiliitis, Erosionen und Gelenkveränderungen.
+
+      # SPINE CHILD TEMPLATES (kept separate due to different positioning/trauma protocols)
+      - name: Röntgen HWS
+        parent: Röntgen Wirbelsäule
+        children: false
+        filepath: xray/cervical_spine.yaml
+        explanation: Aufnahme der Halswirbelsäule zur Beurteilung von Frakturen, Instabilitäten, Arthrose und rheumatischen Veränderungen.
+
+      - name: Röntgen BWS
+        parent: Röntgen Wirbelsäule
+        children: false
+        filepath: xray/thoracic_spine.yaml
+        explanation: Aufnahme der Brustwirbelsäule zur Beurteilung von Frakturen, Arthrose und rheumatischen Veränderungen.
+
+      - name: Röntgen LWS
+        parent: Röntgen Wirbelsäule
+        children: false
+        filepath: xray/lumbar_spine.yaml
+        explanation: Aufnahme der Lendenwirbelsäule zur Beurteilung von Frakturen, Arthrose und rheumatischen Veränderungen.
+
+  - Type: Röntgen Kopf
+    Templates:
+      - name: Röntgen Kopf Standard
+        parent: false
+        children:
+          - Gesichtsschädel
+          - Nasennebenhöhlen
+          - Panoramaaufnahme
+        filepath: xray/head_standard.yaml
+        explanation: Aufnahmen des Kopfes zur Beurteilung von Frakturen, Entzündungen und Zahnstatus.
+
+      - name: Gesichtsschädel
+        parent: Röntgen Kopf Standard
+        children: false
+        filepath: xray/facial_skull.yaml
+        explanation: Aufnahme des Gesichtsschädels zur Beurteilung von Frakturen und Osteosynthesematerial.
+
+      - name: Nasennebenhöhlen
+        parent: Röntgen Kopf Standard
+        children: false
+        filepath: xray/sinuses.yaml
+        explanation: Aufnahme der Nasennebenhöhlen zur Beurteilung von Entzündungen, Zysten und Sekretverhalt.
+
+      - name: Panoramaaufnahme
+        parent: Röntgen Kopf Standard
+        children: false
+        filepath: xray/panorama.yaml
+        explanation: Panoramaaufnahme des Kiefers zur Beurteilung von Zahnstatus, Kieferveränderungen und Tumoren.
+
+  - Type: Röntgen Abdomen
+    Templates:
+      - name: Abdomen Standard
+        parent: false
+        children: false
+        filepath: xray/abdomen_standard.yaml
+        explanation: Aufnahme des Abdomens zur Beurteilung von Darmgas, Ileus, Fremdkörpern und Passagestörungen.
+
+  - Type: Durchleuchtung
+    Templates:
+      - name: Durchleuchtung Standard
+        parent: false
+        children:
+          - Breischluck
+          - Kontrasteinlauf
+          - Urographie
+          - Gelenkdarstellung
+        filepath: xray/fluoroscopy_standard.yaml
+        explanation: Durchleuchtungsuntersuchungen mit Kontrastmittel zur dynamischen Beurteilung verschiedener Organsysteme.
+
+      - name: Breischluck
+        parent: Durchleuchtung Standard
+        children: false
+        filepath: xray/fluoroscopy_swallow.yaml
+        explanation: Durchleuchtung des oberen Verdauungstrakts nach oraler Kontrastmittelgabe zur Beurteilung von Schluckstörungen und Reflux.
+
+      - name: Kontrasteinlauf
+        parent: Durchleuchtung Standard
+        children: false
+        filepath: xray/fluoroscopy_enema.yaml
+        explanation: Durchleuchtung des Dickdarms nach rektaler Kontrastmittelgabe zur Beurteilung von Stenosen und Anastomosen.
+
+      - name: Urographie
+        parent: Durchleuchtung Standard
+        children: false
+        filepath: xray/fluoroscopy_urography.yaml
+        explanation: Durchleuchtung des Harntrakts nach intravenöser Kontrastmittelgabe zur Beurteilung von Abflussstörungen.
+
+      - name: Gelenkdarstellung
+        parent: Durchleuchtung Standard
+        children: false
+        filepath: xray/fluoroscopy_joints.yaml
+        explanation: Durchleuchtung von Gelenken (Arthrographie) und Wirbelsäule (Myelographie) nach Kontrastmittelgabe zur Strukturbeurteilung.
+  - Type: Mammographie
+    Templates:
+      - name: Mammographie Standard
+        parent: false
+        children: false
+        filepath: xray/mammography_standard.yaml
+        explanation: Mammographische Aufnahme zur Früherkennung von Brustkrebs und Beurteilung von Mammakarzinomen.
+
+Computer Tomographie:
+  - Type: CT Kopf
+    Templates:
+      # MAIN PARENT TEMPLATES - INTRAKRANIELLE BILDGEBUNG UND FAZIALE STRUKTUREN
+      - name: CT Kopf mit oder ohne Kontrastmittel
+        parent: false # Basistemplate für alle intrakraniellen Untersuchungen.
+        children:
+          - CT Kopf nach OP
+          - CT Perfusion Kopf
+          - CT Angiographie Kopf-Hals
+        filepath: ct/ct_head_standard.yaml
+        explanation: Computertomographie des Schädels mit oder ohne Kontrastmittel zur Beurteilung von Blutungen, Frakturen, Tumoren, Infarkten.
+
+      - name: CT Gesichtsschädel
+        parent: false # Basistemplate für alle fazialen Strukturen.
+        children:
+          - CT Nasennebenhöhlen
+          - CT Felsenbein
+          - CT Kiefer
+        filepath: ct/ct_facial_skull.yaml
+        explanation: Computertomographie des Gesichtsschädels zur Beurteilung von Frakturen, Tumoren und Fehlbildungen.
+
+      # CHILD TEMPLATES - INTRAKRANIELLE BILDGEBUNG
+      - name: CT Angiographie Kopf-Hals
+        parent: CT Kopf mit oder ohne Kontrastmittel
+        children: false
+        filepath: ct/ct_angiography_head_neck.yaml
+        explanation: CT Darstellung von Carotiden, Vertebralarterien und intrakraniellen Gefäßen mit Weichteilbeurteilung; wählen, wenn eine Kopf-/Hals-Angiographie statt einer diagnostischen Standard-CT geplant ist.
+
+      - name: CT Kopf nach OP
+        parent: CT Kopf mit oder ohne Kontrastmittel
+        children: false
+        filepath: ct/ct_head_post_op.yaml
+        explanation: Computertomographie des Schädels nach neurochirurgischen Eingriffen zur Beurteilung von Komplikationen wie Blutungen, Infektionen, Shuntfunktion oder Tumorrest.
+
+      - name: CT Perfusion Kopf
+        parent: CT Kopf mit oder ohne Kontrastmittel
+        children: false
+        filepath: ct/ct_perfusion_head.yaml
+        explanation: Computertomographie zur Beurteilung der zerebralen Perfusion bei Schlaganfallverdacht mit Bestimmung von CBF, CBV, MTT und TTP.
+
+      # CHILD TEMPLATES - FAZIALE STRUKTUREN
+      - name: CT Nasennebenhöhlen
+        parent: CT Gesichtsschädel
+        children: false
+        filepath: ct/ct_sinuses.yaml
+        explanation: Computertomographie der Nasennebenhöhlen zur Beurteilung von Sinusitis, Polyposis, Zysten und präoperativen Planung.
+
+      - name: CT Felsenbein
+        parent: CT Gesichtsschädel
+        children: false
+        filepath: ct/ct_temporal_bone.yaml
+        explanation: Hochauflösende Computertomographie des Felsenbeins zur Beurteilung des Mittel- und Innenohrs bei Otosklerose, Cholesteatom, Frakturen oder Hörverlust.
+
+      - name: CT Kiefer
+        parent: CT Gesichtsschädel
+        children: false
+        filepath: ct/ct_mandible_maxilla.yaml
+        explanation: Computertomographie der Kiefer zur Beurteilung von Zahnstatus, Kieferzysten, Tumoren, Frakturen und präimplantärer Diagnostik.
+
+  - Type: CT Hals
+    Templates:
+      # MAIN PARENT TEMPLATE
+      - name: CT Hals Standard
+        parent: false
+        children:
+          - CT Hals Trauma
+          - CT Hals Raumforderung
+          - CT Hals Entzündung
+        filepath: ct/ct_neck_standard.yaml
+        explanation: Computertomographie des Halses zur Beurteilung von Weichteilen, Lymphknoten, Schilddrüse, Gefäßen und Atemwegen.
+
+      - name: CT Angiographie Kopf-Hals
+        parent: CT Kopf mit oder ohne Kontrastmittel
+        children: false
+        filepath: ct/ct_angiography_head_neck.yaml
+        explanation: CT Darstellung von Carotiden, Vertebralarterien und intrakraniellen Gefäßen mit Weichteilbeurteilung; wählen, wenn eine Kopf-/Hals-Angiographie statt einer diagnostischen Standard-CT geplant ist.
+
+      # CHILD TEMPLATES
+      - name: CT Hals Trauma
+        parent: CT Hals Standard
+        children: false
+        filepath: ct/ct_neck_trauma.yaml
+        explanation: Computertomographie des Halses nach Trauma zur Beurteilung von Frakturen, Hämatomen, Gefäßverletzungen und Fremdkörpern.
+
+      - name: CT Hals Raumforderung
+        parent: CT Hals Standard
+        children: false
+        filepath: ct/ct_neck_mass.yaml
+        explanation: Computertomographie des Halses zur Beurteilung von Raumforderungen (Schilddrüsenknoten, Lymphome, Metastasen, Primärtumoren) und deren Staging.
+
+      - name: CT Hals Entzündung
+        parent: CT Hals Standard
+        children: false
+        filepath: ct/ct_neck_inflammation.yaml
+        explanation: Computertomographie des Halses zur Beurteilung von Entzündungen, Abszessen, Phlegmonen und Zellulitis.
+
+  - Type: CT Thorax
+    Templates:
+      - name: CT Thorax Standard
+        parent: false # Basis für alle thorakalen Untersuchungen.
+        children:
+          - CT Thorax Trauma
+          - CT Thorax Raumforderung
+          - CT Thorax Lungenparenchym
+          - CT Thorax Lungenembolie
+        filepath: ct/ct_thorax_standard.yaml
+        explanation: Computertomographie des Thorax zur Beurteilung von Lunge, Mediastinum, Pleura und thorakalen Strukturen.
+
+      # CHILD TEMPLATES
+      - name: CT Thorax Trauma
+        parent: CT Thorax Standard
+        children: false
+        filepath: ct/ct_thorax_trauma.yaml
+        explanation: Computertomographie des Thorax nach Trauma zur Beurteilung von Frakturen, Pneumothorax, Hämatothorax, Organrupturen und Aortenverletzungen.
+
+      - name: CT Thorax Raumforderung
+        parent: CT Thorax Standard
+        children: false
+        filepath: ct/ct_thorax_mass.yaml
+        explanation: Computertomographie des Thorax zur Beurteilung von Raumforderungen (Lungentumoren, Lymphome, Metastasen) mit Staging und Ausbreitungsdiagnostik.
+
+      - name: CT Thorax Lungenparenchym
+        parent: CT Thorax Standard
+        children: false
+        filepath: ct/ct_thorax_parenchyma.yaml
+        explanation: Computertomographie des Thorax zur Beurteilung von Lungenparenchymerkrankungen (Pneumonie, Fibrose, interstitielle Lungenerkrankungen, COPD).
+
+      - name: CT Thorax Lungenembolie
+        parent: CT Thorax Standard
+        children: false
+        filepath: ct/ct_thorax_pulmonary_embolism.yaml
+        explanation: CT-Pulmonalisangiographie zur Beurteilung von Lungenembolien mit speziellem Kontrastmittelprotokoll und pulmonalarteriellem Timing.
+
+      - name: CT Angiographie Thorax
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_thorax.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Thoraxbereich (A. pulmonalis, A. subclavia) auf Stenosen, Aneurysmen, Dissektionen.
+
+  - Type: CT Herz
+    Templates:
+      - name: CT Herz Standard
+        parent: false # Basis für alle kardialen Untersuchungen.
+        children:
+          - CT Koronararterien
+          - CT Herz Pulmonalvenenisolation
+        filepath: ct/ct_heart_standard.yaml
+        explanation: Computertomographie des Herzens zur Beurteilung von Koronararterien, Herzklappen, Myokard und Perikard.
+
+      # CHILD TEMPLATES
+      - name: CT Koronararterien
+        parent: CT Herz Standard
+        children: false
+        filepath: ct/ct_heart_coronary_angiography.yaml
+        explanation: CT-Koronarangiographie zur Beurteilung von Koronarstenosen, Plaques und Bypässen mit EKG-Gating und optimiertem Kontrastprotokoll.
+
+      - name: CT Herz Pulmonalvenenisolation
+        parent: CT Herz Standard
+        children: false
+        filepath: ct/ct_heart_intervention.yaml
+        explanation: Computertomographie zur Planung einer Pulmonalvenenisolation.
+
+  - Type: CT Angiographie
+    Templates:
+      - name: CT Angiographie Standard
+        parent: false # Basis für alle angiographischen Untersuchungen außerhalb des Herzens.
+        children:
+          - CT Aorta komplett
+          - CT Angiographie Bein
+          - CT Angiographie Arm
+          - CT Angiographie Thorax
+          - CT Angiographie Abdomen
+        filepath: ct/ct_angiography_standard.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Gefäßdarstellung (außer Herz).
+
+      # CHILD TEMPLATES
+      - name: CT Aorta komplett
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_aorta_complete.yaml
+        explanation: Computertomographie der gesamten Aorta (thorakal und abdominal) zur Beurteilung von Aneurysmen, Dissektionen, Stenosen und Endoleaks.
+
+      - name: CT Angiographie Bein
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_peripheral.yaml
+        explanation: Computertomographie der Becken und Beinarterien zur Beurteilung von pAVK, Stenosen, Aneurysmen und Embolien.
+
+      - name: CT Angiographie Arm
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_peripheral.yaml
+        explanation: Computertomographie der Schulter und Armarterien zur Beurteilung von pAVK, Stenosen, Aneurysmen und Embolien.
+
+      - name: CT Phlebographie
+        parent: false
+        children: false
+        filepath: ct/ct_phlebography.yaml
+        explanation: Computertomographie der Venen zur Beurteilung von Thrombosen, Stenosen und anatomischen Varianten (obere/untere Extremität, Becken).
+
+      - name: CT Angiographie Kopf-Hals
+        parent: CT Kopf mit oder ohne Kontrastmittel
+        children: false
+        filepath: ct/ct_angiography_head_neck.yaml
+        explanation: CT Darstellung von Carotiden, Vertebralarterien und intrakraniellen Gefäßen mit Weichteilbeurteilung; wählen, wenn eine Kopf-/Hals-Angiographie statt einer diagnostischen Standard-CT geplant ist.
+
+      - name: CT Thorax Lungenembolie # Repeated from CT Thorax, to avoid selection errors if the model focusses on the thoracic region for the angiography.
+        parent: CT Thorax Standard
+        children: false
+        filepath: ct/ct_thorax_pulmonary_embolism.yaml
+        explanation: CT-Pulmonalisangiographie zur Beurteilung von Lungenembolien mit speziellem Kontrastmittelprotokoll und pulmonalarteriellem Timing.
+
+      - name: CT Angiographie Thorax
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_thorax.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Thoraxbereich (A. pulmonalis, A. subclavia) auf Stenosen, Aneurysmen, Dissektionen.
+
+      - name: CT Angiographie Abdomen
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_abdomen.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Abdomen (Aorta, Nierenarterien, Mesenterialarterien) auf Stenosen, Aneurysmen, Dissektionen.
+
+  - Type: CT Abdomen und Becken
+    Templates:
+      - name: CT Abdomen und Becken Standard # Basis für alle abdominellen Untersuchungen.
+        parent: false
+        children:
+          - CT Abdomen Trauma
+          - CT Abdomen Raumforderung
+          - CT Abdomen Akut
+          - CT Abdomen Urolithiasis
+        filepath: ct/ct_abdomen_standard.yaml
+        explanation: Computertomographie des Abdomens und Beckens zur Beurteilung von Leber, Pankreas, Milz, Nieren, Darm und Beckenorganen.
+
+      # CHILD TEMPLATES
+      - name: CT Abdomen Trauma
+        parent: CT Abdomen und Becken Standard
+        children: false
+        filepath: ct/ct_abdomen_trauma.yaml
+        explanation: Computertomographie des Abdomens nach Trauma zur Beurteilung von Organrupturen, Blutungen, Frakturen und Fremdkörpern.
+
+      - name: CT Abdomen Raumforderung
+        parent: CT Abdomen und Becken Standard
+        children: false
+        filepath: ct/ct_abdomen_mass.yaml
+        explanation: Computertomographie des Abdomens zur Beurteilung von Raumforderungen aller Organe (Leber, Pankreas, Nieren, Ovarien, Darm) mit Staging und Metastasensuche.
+
+      - name: CT Abdomen Akut
+        parent: CT Abdomen und Becken Standard
+        children: false
+        filepath: ct/ct_abdomen_acute.yaml
+        explanation: Computertomographie des Abdomens bei akuten Erkrankungen (Appendizitis, Divertikulitis, Pankreatitis, Sepsis, Intensivstation).
+
+      - name: CT Abdomen Urolithiasis
+        parent: CT Abdomen und Becken Standard
+        children: false
+        filepath: ct/ct_abdomen_stones.yaml
+        explanation: Low-Dose-Computertomographie ohne Kontrastmittel zur Beurteilung von Nieren- und Harnleitersteinen.
+
+      - name: CT Angiographie Abdomen
+        parent: CT Angiographie Standard
+        children: false
+        filepath: ct/ct_angiography_abdomen.yaml
+        explanation: Computertomographie mit Kontrastmittel zur Beurteilung der Gefäße im Abdomen (Aorta, Nierenarterien, Mesenterialarterien) auf Stenosen, Aneurysmen, Dissektionen.
+
+  - Type: CT Wirbelsäule
+    Templates:
+      - name: CT Wirbelsäule Standard
+        parent: false
+        children:
+          - CT HWS
+          - CT BWS
+          - CT LWS
+        filepath: ct/ct_spine_standard.yaml
+        explanation: Computertomographie der Wirbelsäule, zumeist ohne Kontrastmittel zur Beurteilung von Frakturen, Stenosen, Tumoren und Osteosynthesematerial.
+
+      # CHILD TEMPLATES
+      - name: CT HWS
+        parent: CT Wirbelsäule Standard
+        children: false
+        filepath: ct/ct_cervical_spine.yaml
+        explanation: Computertomographie der Halswirbelsäule zur Beurteilung von Frakturen, Instabilitäten, Stenosen und Tumoren.
+
+      - name: CT BWS
+        parent: CT Wirbelsäule Standard
+        children: false
+        filepath: ct/ct_thoracic_spine.yaml
+        explanation: Computertomographie der Brustwirbelsäule zur Beurteilung von Frakturen, Stenosen, Tumoren und Osteosynthesematerial.
+
+      - name: CT LWS
+        parent: CT Wirbelsäule Standard
+        children: false
+        filepath: ct/ct_lumbar_spine.yaml
+        explanation: Computertomographie der Lendenwirbelsäule zur Beurteilung von Frakturen, Stenosen, Tumoren und Osteosynthesematerial.
+
+  - Type: CT Bewegungsapparat
+    Templates:
+      # MAIN PARENT TEMPLATE
+      - name: CT Bewegungsapparat Standard
+        parent: false
+        children:
+          - CT Extremitäten
+          - CT Becken
+        filepath: ct/ct_musculoskeletal_standard.yaml
+        explanation: Computertomographie des Bewegungsapparats zur Beurteilung von Knochen, Gelenken und Weichteilen.
+
+      # CHILD TEMPLATES
+      - name: CT Extremitäten
+        parent: CT Bewegungsapparat Standard
+        children: false
+        filepath: ct/ct_extremities.yaml
+        explanation: Computertomographie der Extremitäten (Arme, Beine, Gelenke) zur Beurteilung von Frakturen, Gelenkveränderungen, Osteosynthesematerial und Tumoren.
+
+      - name: CT Becken
+        parent: CT Bewegungsapparat Standard
+        children: false
+        filepath: ct/ct_pelvis_bone.yaml
+        explanation: Computertomographie des Beckens zur Beurteilung von Frakturen, Tumoren, Osteosynthesematerial und Gelenkveränderungen.
+
+  - Type: CT Spezialprotokolle
+    Templates:
+      # STANDALONE TEMPLATES
+      - name: CT Polytrauma
+        parent: false
+        children: false
+        filepath: ct/ct_polytrauma.yaml
+        explanation: Computertomographie-Protokoll für schnelle Ganzkörper-Beurteilung bei Polytrauma-Patienten (Kopf, Thorax, Abdomen).
+
+      - name: CT Myelom
+        parent: false
+        children: false
+        filepath: ct/ct_myeloma.yaml
+        explanation: Computertomographie-Protokoll für Suche nach Osteolysen und Frakturen bei Multiples Myelom.
+
+  # repeated from section Interventionelle Radiologie to avoid selection errors
+  - Type: CT gestützte Interventionen und Eingriffe
+    Templates:
+      - name: Interventionelle Schmerztherapie Standard
+        parent: false
+        children: false
+        filepath: interventional/pain_therapy.yaml
+        explanation: Bildgesteuerte Injektionen zur Schmerztherapie (Facettengelenk, epidural, Nervenblockaden, ISG) bei degenerativen und neuropathischen Schmerzen.
+
+      - name: CT gestützte interventionelle Onkologie Standard
+        parent: false
+        children:
+          - CT gestützte Tumorablation
+        filepath: interventional/oncology_standard.yaml
+        explanation: Lokale Tumorbehandlung, wenn weder Ablation noch Embolisation klar zutreffend, oder kombiniertes Verfahren.
+
+      - name: CT gestützte Tumorablation
+        parent: CT gestützte interventionelle Onkologie Standard
+        children: false
+        filepath: interventional/tumor_ablation.yaml
+        explanation: Tumorablation (Radiofrequenz, Mikrowelle, Kryoablation) bei soliden Tumoren in Leber, Niere, Lunge u.a.
+
+      - name: CT Bildgesteuerte Biopsien, Punktionen und Drainagen
+        parent: false
+        children: false
+        filepath: interventional/image_guided.yaml
+        explanation: CT gesteuerte Drainagen, Biopsien und Punktionen; verwenden, wenn eine CT-gestützte Intervention statt einer diagnostischen CT-Untersuchung geplant ist.
+
+Magnet Resonanz Tomographie:
+  - Type: MRT Kopf
+    Templates:
+      - name: MRT Kopf Standard
+        parent: false
+        children:
+          - MRT Kopf Akut
+          - MRT Kopf Raumforderung
+          - MRT Kopf Epilepsie
+          - MRT Kopf nach OP
+        filepath: mri/head_standard.yaml
+        explanation: Standard-MRT des Kopfes zur Beurteilung von Gehirn, Hirnnerven, Gefäßen und umgebenden Strukturen.
+
+      # CHILD TEMPLATES
+      - name: MRT Kopf Akut
+        parent: MRT Kopf Standard
+        children: false
+        filepath: mri/head_acute.yaml
+        explanation: MRT des Kopfes bei akuten neurologischen Symptomen (Schlaganfall, Blutung, Trauma) mit schnellen Sequenzen und Diffusionsgewichtung (DWI).
+
+      - name: MRT Kopf Raumforderung
+        parent: MRT Kopf Standard
+        children: false
+        filepath: mri/head_mass.yaml
+        explanation: MRT des Kopfes zur Beurteilung von Raumforderungen (Tumoren, Metastasen, Abszesse) mit Kontrastmittel und speziellen Sequenzen.
+
+      - name: MRT Kopf Epilepsie
+        parent: MRT Kopf Standard
+        children: false
+        filepath: mri/head_epilepsy.yaml
+        explanation: Hochauflösende MRT des Kopfes zur Epilepsiediagnostik mit dünnen Schichten zur Beurteilung von Hippocampus-Sklerose und kortikalen Dysplasien.
+
+      - name: MRT Kopf nach OP
+        parent: MRT Kopf Standard
+        children: false
+        filepath: mri/head_post_op.yaml
+        explanation: MRT des Kopfes nach neurochirurgischen Eingriffen zur Beurteilung von Komplikationen, Tumorrest, Blutungen und Shuntfunktion.
+
+  - Type: MRT Hals
+    Templates:
+      - name: MRT Hals Standard
+        parent: false
+        children:
+          - MRT Hals Raumforderung
+          - MRT Hals Angiographie
+          - MRT Hals Trauma
+        filepath: mri/neck_standard.yaml
+        explanation: Standard-MRT des Halses zur Beurteilung von Weichteilen, Lymphknoten, Schilddrüse, Speicheldrüsen und Atemwegen.
+
+      # CHILD TEMPLATES
+      - name: MRT Hals Raumforderung
+        parent: MRT Hals Standard
+        children: false
+        filepath: mri/neck_mass.yaml
+        explanation: MRT des Halses zur Beurteilung von Raumforderungen (Schilddrüsenknoten, Lymphome, Metastasen, Primärtumoren) mit Kontrastmittel und Staging.
+
+      - name: MRT Hals Angiographie
+        parent: MRT Hals Standard
+        children: false
+        filepath: mri/neck_angiography.yaml
+        explanation: MRT-Angiographie des Halses zur Beurteilung der Halsgefäße (Carotiden, Vertebralarterien) auf Stenosen, Aneurysmen und Dissektionen.
+
+      - name: MRT Hals Trauma
+        parent: MRT Hals Standard
+        children: false
+        filepath: mri/neck_trauma.yaml
+        explanation: MRT des Halses nach Trauma zur Beurteilung von Weichteilverletzungen, Hämatomen, Gefäßverletzungen und Rückenmarksverletzungen.
+
+  - Type: MRT Herz
+    Templates:
+      - name: MRT Herz Standard
+        parent: false
+        children: false
+        filepath: mri/cardiac.yaml
+        explanation: Kardio-MRT zur Beurteilung von Herzfunktion, Myokard, Klappen, Perikard und kardialen Raumforderungen mit EKG-Gating und Stressprotokollen.
+
+  - Type: MRT Thorax
+    Templates:
+      - name: MRT Thorax Standard
+        parent: false
+        children:
+          - MRT Thorax Raumforderung
+          - MRT Thorax Angiographie
+        filepath: mri/thorax_standard.yaml
+        explanation: Standard-MRT des Thorax zur Beurteilung von Mediastinum, Lunge, Pleura und thorakalen Strukturen.
+
+      - name: MRT Thorax Raumforderung
+        parent: MRT Thorax Standard
+        children: false
+        filepath: mri/thorax_mass.yaml
+        explanation: MRT des Thorax zur Beurteilung von Raumforderungen (Lungentumoren, Mediastinaltumoren, Lymphome) und Staging.
+
+      - name: MRT Thorax Angiographie
+        parent: MRT Thorax Standard
+        children: false
+        filepath: mri/thorax_angiography.yaml
+        explanation: MRT-Angiographie des Thorax zur Beurteilung der Aorta, Pulmonalarterien und thorakalen Gefäße auf Stenosen, Aneurysmen und Dissektionen.
+
+  - Type: MRT Mamma
+    Templates:
+      - name: MRT Mamma Standard
+        parent: false
+        children: false
+        filepath: mri/breast.yaml
+        explanation: MRT der Mamma zur Beurteilung von Mammatumoren, Screening bei Hochrisikopatienten und präoperativer Diagnostik mit dynamischer Kontrastmittelgabe.
+
+  - Type: MRT Abdomen und Beckenorgane
+    Templates:
+      # MAIN PARENT TEMPLATE
+      - name: MRT Abdomen Standard
+        parent: false
+        children:
+          - MRT Leber
+          - MRT Pankreas
+          - MRT Niere
+          - MRCP
+          - MRT Darm
+          - MRT Prostata
+          - MRT Uterus
+          - MRT Ovarien
+          - MRT Rektum
+        filepath: mri/abdomen_standard.yaml
+        explanation: Standard-MRT des gesamten Abdomens zur Beurteilung der Bauchorgane, Weichteile und Lymphknoten.
+
+      # CHILD TEMPLATES - OBERBAUCH
+      - name: MRT Leber
+        parent: MRT Abdomen Standard
+        children: false
+        filepath: mri/liver.yaml
+        explanation: MRT der Leber zur Beurteilung von Raumforderungen, Metastasen und Zirrhose, ggf. mit hepatozytenspezifischem Kontrastmittel (Primovist/Eovist) und hepatobiliärer Phase.
+
+      - name: MRT Pankreas
+        parent: MRT Abdomen Standard
+        children: false
+        filepath: mri/pancreas.yaml
+        explanation: MRT des Pankreas zur Beurteilung von Tumoren, Pankreatitis und Zysten mit spezifischen arteriellen und pankreatischen Phasen.
+
+      - name: MRT Niere
+        parent: MRT Abdomen Standard
+        children: false
+        filepath: mri/kidney.yaml
+        explanation: MRT der Nieren zur Beurteilung von Tumoren, Zysten und Funktionsstörungen mit spezifischen nephrogenen Phasen und funktionellen Sequenzen.
+
+      - name: MRCP
+        parent: MRT Abdomen Standard
+        children: false
+        filepath: mri/mrcp.yaml
+        explanation: Magnetresonanz-Cholangiopankreatikographie zur Beurteilung der Gallen- und Pankreasgänge bei Steinen, Stenosen und Tumoren.
+
+      # CHILD TEMPLATES - DARM
+      - name: MRT Darm
+        parent: MRT Abdomen Standard
+        children: false
+        filepath: mri/bowel_sellink.yaml
+        explanation: MRT des Darms nach Sellink-Technik zur Beurteilung von entzündlichen Darmerkrankungen (Morbus Crohn, Colitis ulcerosa), Tumoren oder Stenosen mit enteraler Kontrastmittelgabe.
+
+      # CHILD TEMPLATES - BECKENORGANE
+      - name: MRT Prostata
+        parent: MRT Abdomen Standard
+        children: false
+        filepath: mri/prostate.yaml
+        explanation: MRT der Prostata zur Beurteilung von Prostatakarzinom, Entzündungen und benigner Prostatahyperplasie mit multiparametrischen Sequenzen (T2, DWI, DCE).
+
+      - name: MRT Uterus
+        parent: MRT Abdomen Standard
+        children: false
+        filepath: mri/uterus.yaml
+        explanation: MRT des Uterus zur Beurteilung von Myomen, Endometriose, Adenomyose und Uterustumoren mit zyklusabhängiger Bildgebung.
+
+      - name: MRT Ovarien
+        parent: MRT Abdomen Standard
+        children: false
+        filepath: mri/ovaries.yaml
+        explanation: MRT der Ovarien zur Beurteilung von Ovarialtumoren, Zysten, Endometriose und PCOS mit spezifischen Sequenzen für Gewebedifferenzierung.
+
+      - name: MRT Rektum
+        parent: MRT Abdomen Standard
+        children: false
+        filepath: mri/rectum.yaml
+        explanation: MRT des Rektums zur präoperativen Beurteilung von Rektumkarzinomen, lokaler Tumorausbreitung und Lymphknotenstatus mit hochauflösenden T2-Sequenzen.
+
+  - Type: MRT Wirbelsäule
+    Templates:
+      - name: MRT Wirbelsäule Standard
+        parent: false
+        children:
+          - MRT HWS
+          - MRT BWS
+          - MRT LWS
+        filepath: mri/spine_standard.yaml
+        explanation: Standard-MRT der Wirbelsäule zur Beurteilung von Bandscheibenvorfällen, Spinalkanalstenosen, Frakturen und Tumoren.
+
+      - name: MRT HWS
+        parent: MRT Wirbelsäule Standard
+        children: false
+        filepath: mri/cervical_spine.yaml
+        explanation: MRT der Halswirbelsäule zur Beurteilung von Bandscheibenvorfällen, Myelopathie, Instabilitäten und zervikalen Radikulopathien.
+
+      - name: MRT BWS
+        parent: MRT Wirbelsäule Standard
+        children: false
+        filepath: mri/thoracic_spine.yaml
+        explanation: MRT der Brustwirbelsäule zur Beurteilung von Bandscheibenvorfällen, Myelopathie, Frakturen und thorakalen Raumforderungen.
+
+      - name: MRT LWS
+        parent: MRT Wirbelsäule Standard
+        children: false
+        filepath: mri/lumbar_spine.yaml
+        explanation: MRT der Lendenwirbelsäule zur Beurteilung von Bandscheibenvorfällen, Spinalkanalstenosen, Radikulopathien und lumbalen Instabilitäten.
+
+  - Type: MRT Extremitäten
+    Templates:
+      - name: MRT Schulter
+        parent: false
+        children: false
+        filepath: mri/shoulder.yaml
+        explanation: MRT der Schulter zur Beurteilung von Rotatorenmanschettenverletzungen, Labrumläsionen, SLAP-Läsionen und Impingement-Syndrom. Ggf. mit MR-Arthrographie.
+
+      - name: MRT Ellenbogen
+        parent: false
+        children: false
+        filepath: mri/elbow.yaml
+        explanation: MRT des Ellenbogens zur Beurteilung von Epicondylitis, Kollateralbandverletzungen, Osteochondrosis dissecans und Neuropathien.
+
+      - name: MRT Handgelenk
+        parent: false
+        children: false
+        filepath: mri/wrist.yaml
+        explanation: MRT des Handgelenks zur Beurteilung von TFCC-Läsionen, Skaphoidfrakturen, Karpaltunnelsyndrom und Sehnenscheidenentzündungen.
+
+      - name: MRT Hand
+        parent: false
+        children: false
+        filepath: mri/hand.yaml
+        explanation: MRT der Hand zur Beurteilung von Sehnenverletzungen, Ganglien, rheumatischen Veränderungen und Weichteiltumoren.
+
+      - name: MRT Hüfte
+        parent: false
+        children: false
+        filepath: mri/hip.yaml
+        explanation: MRT der Hüfte zur Beurteilung von FAI, Labrumverletzungen, Hüftnekrose und Hüftdysplasien. Ggf. mit MR-Arthrographie.
+
+      - name: MRT Knie
+        parent: false
+        children: false
+        filepath: mri/knee.yaml
+        explanation: MRT des Knies zur Beurteilung von Meniskusrissen, Kreuzbandrissen, Knorpelschäden und Kollateralbandverletzungen.
+
+      - name: MRT Sprunggelenk
+        parent: false
+        children: false
+        filepath: mri/ankle.yaml
+        explanation: MRT des Sprunggelenks zur Beurteilung von Bänderverletzungen, Achillessehnenpathologie, Osteochondrosis dissecans und Impingement.
+
+      - name: MRT Fuß
+        parent: false
+        children: false
+        filepath: mri/foot.yaml
+        explanation: MRT des Fußes zur Beurteilung von Plantarfasziitis, Morton Neurom, Sehnenverletzungen und Weichteiltumoren.
+
+  - Type: MRT Becken und ISG
+    Templates:
+      - name: MRT Knöchernes Becken
+        parent: false
+        children: false
+        filepath: mri/pelvis_bone.yaml
+        explanation: MRT des knöchernen Beckens zur Beurteilung von Stressfrakturen, Tumoren, Ostitis pubis und Gelenkveränderungen.
+
+      - name: MRT Iliosakralgelenk
+        parent: false
+        children: false
+        filepath: mri/sacroiliac_joint.yaml
+        explanation: MRT des Iliosakralgelenks zur Beurteilung von Sakroiliitis, Spondyloarthropathien und entzündlichen Veränderungen mit STIR-Sequenzen.
+
+  - Type: MRT Angiographie
+    Templates:
+      - name: MRT Angiographie Standard
+        parent: false # Basis für alle MR-angiographischen Untersuchungen außerhalb des Herzens.
+        children:
+          - MRT Angiographie Becken-Bein
+          - MRT Angiographie Arm
+          - MRT Angiographie Bauch
+        filepath: mri/angiography_standard.yaml
+        explanation: MR-Angiographie zur Gefäßdarstellung (TOF, CE-MRA, 4D-MRA) außerhalb des Herzens; wählen, wenn keine spezifischere Region zutrifft.
+
+      # CHILD TEMPLATES
+      - name: MRT Angiographie Becken-Bein
+        parent: MRT Angiographie Standard
+        children: false
+        filepath: mri/angiography_peripheral_leg.yaml
+        explanation: MR-Angiographie der Becken- und Beinarterien zur Beurteilung von pAVK, Stenosen, Aneurysmen und Embolien (Run-off-MRA).
+
+      - name: MRT Angiographie Arm
+        parent: MRT Angiographie Standard
+        children: false
+        filepath: mri/angiography_peripheral_arm.yaml
+        explanation: MR-Angiographie der Schulter- und Armarterien zur Beurteilung von Stenosen (z.B. Subclavian-Steal), Aneurysmen, Vaskulitis und Verletzungsfolgen.
+
+      - name: MRT Angiographie Bauch
+        parent: MRT Angiographie Standard
+        children: false
+        filepath: mri/angiography_abdomen.yaml
+        explanation: MR-Angiographie des Abdomens zur Beurteilung der abdominellen Gefäße (Aorta, Nierenarterien, Mesenterialarterien, Iliakalarterien) auf Stenosen, Aneurysmen, Dissektionen.
+
+      # Cross-references zu bereits unter anderen Typen definierten MRA-Templates
+      - name: MRT Hals Angiographie
+        parent: MRT Hals Standard
+        children: false
+        filepath: mri/neck_angiography.yaml
+        explanation: MRT-Angiographie des Halses zur Beurteilung der Halsgefäße (Carotiden, Vertebralarterien) auf Stenosen, Aneurysmen und Dissektionen.
+
+      - name: MRT Thorax Angiographie
+        parent: MRT Thorax Standard
+        children: false
+        filepath: mri/thorax_angiography.yaml
+        explanation: MRT-Angiographie des Thorax zur Beurteilung der Aorta, Pulmonalarterien und thorakalen Gefäße auf Stenosen, Aneurysmen und Dissektionen.
+
+  - Type: MRT Spezialprotokolle
+    Templates:
+      - name: MRT Ganzkörper
+        parent: false
+        children: false
+        filepath: mri/whole_body.yaml
+        explanation: Ganzkörper-MRT zur Suche nach ossären und Weichteilläsionen bei Multiplem Myelom, Lymphom, Metastasensuche, Melanom-Staging, Neurofibromatose oder pädiatrischem Tumorscreening.
+
+Interventionelle Radiologie:
+  - Type: Gefäßinterventionen
+    Templates:
+      - name: Gefäßinterventionen Standard
+        parent: false
+        children:
+          - Arterielle Interventionen
+          - Venöse Interventionen
+        filepath: interventional/vascular_standard.yaml
+        explanation: Allgemeine Gefäßintervention, wenn weder rein arteriell noch rein venös zutreffend.
+
+      - name: Arterielle Interventionen
+        parent: Gefäßinterventionen Standard
+        children: false
+        filepath: interventional/arterial.yaml
+        explanation: Arterielle Interventionen (Angioplastie, Stenting, Embolisation, Thrombektomie) bei Stenosen, Aneurysmen, Blutungen, Verschlüssen.
+
+      - name: Venöse Interventionen
+        parent: Gefäßinterventionen Standard
+        children: false
+        filepath: interventional/venous.yaml
+        explanation: Venöse Interventionen (PICC, Port, Dialysekatheter, Thrombolyse, Varikozelenverschluss) bei Gefäßzugängen, Thrombosen, Krampfadern.
+
+  - Type: Interventionelle Schmerztherapie
+    Templates:
+      - name: Interventionelle Schmerztherapie Standard
+        parent: false
+        children: false
+        filepath: interventional/pain_therapy.yaml
+        explanation: Bildgesteuerte Injektionen zur Schmerztherapie (Facettengelenk, epidural, Nervenblockaden, ISG) bei degenerativen und neuropathischen Schmerzen.
+
+  - Type: Interventionelle Onkologie
+    Templates:
+      - name: Interventionelle Onkologie Standard
+        parent: false
+        children:
+          - Tumorablation
+          - Tumorembolisation
+        filepath: interventional/oncology_standard.yaml
+        explanation: Lokale Tumorbehandlung, wenn weder Ablation noch Embolisation klar zutreffend.
+
+      - name: Tumorablation
+        parent: Interventionelle Onkologie Standard
+        children: false
+        filepath: interventional/tumor_ablation.yaml
+        explanation: Tumorablation (Radiofrequenz, Mikrowelle, Kryoablation) bei soliden Tumoren in Leber, Niere, Lunge u.a.
+
+      - name: Tumorembolisation
+        parent: Interventionelle Onkologie Standard
+        children: false
+        filepath: interventional/tumor_embolization.yaml
+        explanation: Tumorembolisation (TACE, DEB-TACE, Radioembolisation) bei Lebertumoren und hypervaskularisierten Tumoren.
+
+  - Type: Drainagen und Biopsien
+    Templates:
+      - name: Bildgesteuerte Interventionen Standard
+        parent: false
+        children: false
+        filepath: interventional/image_guided.yaml
+        explanation: Bildgesteuerte Drainagen, Biopsien und Punktionen (CT, Ultraschall, MRT).

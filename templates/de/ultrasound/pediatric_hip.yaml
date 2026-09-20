@@ -1,0 +1,20 @@
+untersuchung: ""
+befunddatum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+technik: "<z.B. Gerät, Schallkopf (Frequenz)>"
+befund:
+  hueften:
+    rechts:
+      knochenreifung: ""
+      alpha_winkel: ""
+      beta_winkel: ""
+      typ_nach_graf: ""
+    links:
+      knochenreifung: ""
+      alpha_winkel: ""
+      beta_winkel: ""
+      typ_nach_graf: ""
+
+  sonstiges: ""
+beurteilung: ""

@@ -1,0 +1,23 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, Schallkopf (Frequenz)
+befund:
+  beurteilbarkeit: ""
+  diameter_suprarenal_mm: ""
+  diameter_infrarenal_mm: ""
+  diameter_bifurkation_mm: ""
+  wandbeschaffenheit: ""
+  aneurysma: # Falls vorhanden
+    lokalisation: ""
+    maximaler_diameter_mm: ""
+    länge_mm: ""
+    thrombusbildung: ""
+  gefaessabgaenge:
+    truncus_coeliacus: ""
+    a_mesenterica_superior: ""
+    aa_renales: ""
+    a_mesenterica_inferior: ""
+  sonstiges: ""
+beurteilung: ""

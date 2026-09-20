@@ -1,0 +1,19 @@
+untersuchung: "CT Hals Entzündung"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "<biphasisch,  mit KM>"
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  abszess: ""
+  phlegmone: ""
+  ausdehnung: ""
+  luftansammlungen: ""
+
+beurteilung: ""

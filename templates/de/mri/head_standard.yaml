@@ -1,0 +1,29 @@
+untersuchung: "MRT Kopf"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  hirnparenchym:
+    mark_rinden_differenzierung: ""
+    signalveraenderungen: ""
+  ventrikel: ""
+  aeussere_liquorraeume: ""
+  mittellinie: ""
+  diffusion: ""
+  kontrastmittelaufnahme: ""
+  gefaesse: ""
+  meningen: ""
+  orbita: ""
+  nasennebenhoehlen_und_mastoide: ""
+  schaedel: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

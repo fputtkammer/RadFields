@@ -1,0 +1,24 @@
+untersuchung: "MRT Huefte"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  arthrographie: ""
+  bildqualitaet: ""
+
+befund:
+  femurkopf: ""
+  acetabulum: ""
+  knorpel: ""
+  labrum: ""
+  cam_impingement: ""
+  pincer_impingement: ""
+  muskulatur: ""
+  erguss: ""
+  fremdmaterial: ""
+
+beurteilung: ""

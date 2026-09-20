@@ -1,0 +1,25 @@
+untersuchung: "CT Kiefer"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "nativ, Knochenfenster"
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  maxilla: ""
+  mandibula: ""
+  zaehne: ""
+  zysten: ""
+  tumore: ""
+  nervenkanal: ""
+  kiefergelenke: ""
+  frakturen: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

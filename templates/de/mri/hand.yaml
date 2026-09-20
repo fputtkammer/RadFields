@@ -1,0 +1,20 @@
+untersuchung: "MRT Hand"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  knochen: ""
+  gelenke: ""
+  sehnen: ""
+  weichteile: ""
+  erguss: ""
+  fremdmaterial: ""
+
+beurteilung: ""

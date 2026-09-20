@@ -1,0 +1,32 @@
+untersuchung: "MRT Iliosakralgelenk"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  knochenmarksoedem:
+    rechts: ""
+    links: ""
+  erosionen:
+    rechts: ""
+    links: ""
+  sklerose:
+    rechts: ""
+    links: ""
+  ankylose:
+    rechts: ""
+    links: ""
+  fettmetaplasie:
+    rechts: ""
+    links: ""
+  kapsulitis: ""
+  synovitis: ""
+  enthesitis: ""
+
+beurteilung: ""

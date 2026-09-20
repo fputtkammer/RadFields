@@ -1,0 +1,27 @@
+untersuchung: ""
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: ""
+  lage: ""
+  region: ""
+
+befund:
+  seite: ""
+  implantat:
+    typ: "<Platte, Schrauben, Nägel, Draht, Hüft-TEP, Knie-TEP, Schulter-TEP, Prothese, Zement>"
+    position: "<Z.B. \"Platte an der lateralen Femurseite\", \"zementierte Knie-TEP\">"
+    lage: ""
+    intakt: "<Lockerung, Bruch, Migration, Sinterung>"
+    periprothetische_reaktion: "<Lysesäume, Osteolysen, periprothetische Fraktur>"
+  frakturheilung:
+    kallus: ""
+    frakturspalt: ""
+    alignment: ""
+  gelenke: ""
+  weichteile: ""
+  komplikationen: "<Infektzeichen, Heterotope Ossifikation>"
+
+beurteilung: ""

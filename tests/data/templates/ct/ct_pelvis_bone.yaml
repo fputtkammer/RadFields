@@ -1,0 +1,22 @@
+untersuchung: "CT Becken (Knochen)"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  beckenring: ""
+  acetabulum: ""
+  sakrum: ""
+  sakroiliakalgelenke: ""
+  hueftgelenke: ""
+  symphyse: ""
+  lendenwirbelsaeule: ""
+
+beurteilung: ""

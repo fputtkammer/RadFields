@@ -1,0 +1,20 @@
+untersuchung: "Röntgen Extremitäten Trauma"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "<ap, lateral, schräg>"
+
+befund:
+  seite: ""
+  frakturen:
+    frakturmuster: "<transversal, schräg, spiral, mehrfragmentär>"
+    gelenkbeteiligung: ""
+    dislokation: "<Achse, Rotation, Stauchung, Verkürzung>"
+    begleitverletzung: "<Luxation, Bandverletzung vermutet>"
+  gelenke: ""
+  weichteile: "<Schwellung, Weichteilemphysem, FK>"
+  fremdmaterial: ""
+
+beurteilung: ""

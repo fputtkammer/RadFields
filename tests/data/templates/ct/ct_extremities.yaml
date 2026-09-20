@@ -1,0 +1,19 @@
+untersuchung: ""
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  lokalisation:
+    extremitaet: "<obere/untere Extremität; abgedeckte Region (Hand, Fuß, etc.)>"
+    knochen: "<z.B. Femur, Tibia, Humerus>"
+    seite: "links/rechts"
+
+beurteilung: ""

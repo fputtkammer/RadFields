@@ -1,0 +1,33 @@
+untersuchung: "MRT Uterus"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  uterus:
+    groesse: ""
+    lage: ""
+    zonale_anatomie: ""
+  endometrium:
+    dicke_mm: ""
+    signal: ""
+  myometrium: ""
+  laesionen:
+    - id: ""
+      lokalisation: "<submukoes, intramural, subseroes, gestielt>"
+      groesse_mm: ""
+      signalverhalten: ""
+      kontrastmittelaufnahme: ""
+  cervix: ""
+  ovarien: ""
+  parametrien: ""
+  lymphknoten: ""
+  aszites: ""
+
+beurteilung: ""

@@ -1,0 +1,25 @@
+untersuchung: "MRT Thorax"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  lunge:
+    parenchym: ""
+    raumforderung: ""
+    erguss: ""
+  mediastinum: ""
+  lymphknoten: ""
+  herz: ""
+  gefaesse: ""
+  thoraxwand: ""
+  wirbelsaeule: ""
+  fremdmaterial: ""
+
+beurteilung: ""

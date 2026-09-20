@@ -1,0 +1,28 @@
+untersuchung: "MRT Becken knoechern"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  knochen:
+    os_ilium: ""
+    os_pubis: ""
+    os_ischii: ""
+    sacrum: ""
+  knochenmarksignal: ""
+  frakturen: ""
+  stressfrakturen: ""
+  osteolysen: ""
+  hueftgelenke: ""
+  sakroiliakalgelenke: ""
+  symphyse: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

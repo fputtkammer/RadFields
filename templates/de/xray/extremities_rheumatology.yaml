@@ -1,0 +1,26 @@
+untersuchung: "<z.B. Röntgen beider Hände>"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: ""
+  region: ""
+
+befund:
+  seite: ""
+  gelenke:
+    erosionen: ""
+    gelenkspalt: ""
+    subluxation_deformitaet: ""
+    periartikulare_osteopenie: ""
+    ankylosen: ""
+  knochen: 
+    mineralisation: ""
+    sklerose: ""
+    destruktion: ""
+    periostale_reaktion: ""
+  weichteile: "<Weichteilschwellung, Rheumaknoten>"
+  fremdmaterial: ""
+
+beurteilung: ""

@@ -1,0 +1,21 @@
+untersuchung: "<z.B. \"Röntgen Becken \">"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: ""
+  lage: ""
+
+befund:
+  sakroiliakalgelenke:
+    erosionen: ""
+    sklerose: ""
+    gelenkspalt: ""
+    ankylosen: ""
+  hueftgelenke: ""
+  wirbelsaeulenansaetze: "<Syndesmophyten, Enthesopathien>"
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

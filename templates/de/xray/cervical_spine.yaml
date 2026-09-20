@@ -1,0 +1,19 @@
+untersuchung: "Röntgen HWS"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "<ap, lateral, Dens-Ziel>"
+  lage: ""
+
+befund:
+  alignment: ""
+  atlantoaxialgelenk_und_dens: "<Luxation, Fraktur, Subluxation, basilar Impression>"
+  wirbelkoerper: "<Frakturen>"
+  bandscheibenraeume: "<Verschmälerung, Sklerosierung>"
+  degeneration: "<Degenerative Veränderungen, Spondylose, Osteochondrose>"
+  praevertebrale_weichteile: "<Weichteilschwellung>"
+  fremdmaterial: ""
+
+beurteilung: ""

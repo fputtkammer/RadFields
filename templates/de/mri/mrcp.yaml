@@ -1,0 +1,29 @@
+untersuchung: "MRCP"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  sekretin: ""
+  bildqualitaet: ""
+
+befund:
+  intrahepatische_gallenwege: ""
+  d_hepaticus: ""
+  d_choledochus:
+    weite_mm: ""
+    wandveraenderung: ""
+    konkremente: ""
+  gallenblase:
+    groesse: ""
+    wanddicke: ""
+    konkremente: ""
+  d_pancreaticus:
+    weite_mm: ""
+    dilatation: ""
+  papille: ""
+  pankreas: ""
+
+beurteilung: ""

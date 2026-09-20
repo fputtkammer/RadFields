@@ -1,0 +1,19 @@
+untersuchung: "Röntgen Wirbelsäule"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "<ap, lateral, Schräg>"
+  lage: "<stehend, liegend>"
+  segment: "<HWS, BWS, LWS>"
+
+befund:
+  alignment: "<Lordose/Kyphose, Stufe>"
+  wirbelkoerper: "<Fraktur, Höhenminderung, Degeneration/Osteophyten>"
+  bandscheibenraeume: "<Verschmälerung, Sklerose>"
+  facettengelenke: "<Arthrose>"
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

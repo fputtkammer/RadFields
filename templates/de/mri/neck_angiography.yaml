@@ -1,0 +1,30 @@
+untersuchung: "MRT Hals Angiographie"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  a_carotis_communis:
+    rechts: ""
+    links: ""
+  a_carotis_interna:
+    rechts: ""
+    links: ""
+  a_carotis_externa:
+    rechts: ""
+    links: ""
+  a_vertebralis:
+    rechts: ""
+    links: ""
+  stenosen: "<NASCET %>"
+  plaques: ""
+  dissektion: ""
+  aneurysma: ""
+
+beurteilung: ""

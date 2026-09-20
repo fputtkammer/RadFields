@@ -1,0 +1,23 @@
+untersuchung: "CT Felsenbein"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "HRCT Knochenfenster"
+  rekonstruktionen: "<0.4–0.6 mm, MPR>"
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  gehoergang: ""
+  mittelohr: ""
+  innenohr: ""
+  mastoid: ""
+  facialiskanal: ""
+  frakturen: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

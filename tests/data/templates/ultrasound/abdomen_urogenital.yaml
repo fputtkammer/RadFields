@@ -1,0 +1,26 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, Schallkopf (Frequenz)
+befund:
+  nieren:
+    rechts: ""
+    links: ""
+  ureteren:
+    rechts: ""
+    links: ""
+  harnblase:
+    fuellungszustand: ""
+    volumen_ml: ""
+    wand: ""
+    inhalt: ""
+  maennlich:
+    prostata: ""
+  weiblich:
+    uterus: ""
+    adnexe:
+      rechts: ""
+      links: ""
+  sonstiges: ""
+beurteilung: ""

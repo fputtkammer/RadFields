@@ -1,0 +1,25 @@
+untersuchung: ""
+befunddatum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+technik: "<z.B. Gerät, Schallkopf (Frequenz), Doppler-Parameter>"
+befund:
+  untersuchte_extremitaet: "<z.B. \"Rechter Arm\", \"Linker Arm\", \"Beide Arme\">"
+  truncus_brachiocephalicus: ""
+  a_subclavia:
+    rechts: ""
+    links: ""
+  a_axillaris:
+    rechts: ""
+    links: ""
+  a_brachialis:
+    rechts: ""
+    links: ""
+  a_radialis_ulnaris:
+    rechts: "<Unterarmarterien (A. radialis/A. ulnaris)>"
+    links: "<Unterarmarterien (A. radialis/A. ulnaris)>"
+  flussrichtung: ""
+  stenosen_verschluesse: ""
+  aneurysmen: "<Lokalisation, Größe, Wandbeschaffenheit>"
+  sonstiges: ""
+beurteilung: ""

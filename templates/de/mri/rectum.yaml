@@ -1,0 +1,27 @@
+untersuchung: "MRT Rektum"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  tumor:
+    lokalisation: "<oberes, mittleres, unteres Rektumdrittel>"
+    abstand_linea_anocutanea_cm: ""
+    ausdehnung: ""
+    wandinfiltration: ""
+    mrT_stadium: "<mrT1, mrT2, mrT3a-d, mrT4a/b>"
+    crm_mm: "<Abstand zur mesorektalen Faszie>"
+    emvi: ""
+  mesorektale_faszie: ""
+  lymphknoten:
+    mesorektal: ""
+    iliakal: ""
+  sphinkterapparat: ""
+
+beurteilung: ""

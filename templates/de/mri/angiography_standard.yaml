@@ -1,0 +1,43 @@
+untersuchung: "MRT Angiographie"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  aneurysmen:
+    - id: ""
+      lokation_und_groesse: ""
+      begleitbefunde: ""
+    - id: ""
+      lokation_und_groesse: ""
+      begleitbefunde: ""
+
+  stenosen_okklusionen:
+    - id: ""
+      lokation: ""
+      stenosegrad: ""
+      morphologie: ""
+    - id: ""
+      lokation: ""
+      stenosegrad: ""
+      morphologie: ""
+
+  stents_bypaesse:
+    - id: ""
+      lokation: ""
+      stenosegrad: ""
+    - id: ""
+      lokation: ""
+      stenosegrad: ""
+  kollateralen: ""
+  anatomische_varianten: ""
+  weichteile: ""
+  venoeses_system: ""
+
+beurteilung: ""

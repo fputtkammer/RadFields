@@ -1,0 +1,31 @@
+# definition of fictitious combined exams for testing
+Ultraschall:
+- Type: US Hals/Gefaesse
+  Definition:
+    combines:
+    - US_Hals
+    - US_Gefaesse
+- Type: US Hals/Thorax
+  Definition:
+    combines:
+    - US_Hals
+    - US_Thorax
+- Type: US Hals/Gefaesse/Thorax
+  Definition:
+    combines:
+    - US_Hals
+    - US_Gefaesse
+    - US_Thorax
+- Type: US Hals/Gefaesse/Herz
+  Definition:
+    combines:
+    - US_Hals
+    - US_Gefaesse
+    - US_Herz
+- Type: US Hals/Gefaesse/Thorax/Herz
+  Definition:
+    combines:
+    - US_Hals
+    - US_Gefaesse
+    - US_Thorax
+    - US_Herz

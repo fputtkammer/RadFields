@@ -1,0 +1,62 @@
+untersuchung: "CT Angiographie Peripher"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  gefaesse:
+    # vorlage enthält alle gefäße, da diese bei einer angiographie der
+    # arm- oder Beingefäße mit erfasst sein können
+    aorta:
+      aorta_ascendens: ""
+      aortenbogen: ""
+      aorta_descendens: ""
+      aorta_abdominalis: ""
+    supraaortale_gefaesse:
+      arteria_subclavia_rechts: ""
+      arteria_subclavia_links: ""
+      arteria_axillaris_rechts: ""
+      arteria_axillaris_links: ""
+      arteria_brachialis_rechts: ""
+      arteria_brachialis_links: ""
+      arteria_radialis_rechts: ""
+      arteria_radialis_links: ""
+      arteria_ulnaris_rechts: ""
+      arteria_ulnaris_links: ""
+    viszerale_gefaesse:
+      truncus_coeliacus: ""
+      arteria_mesenterica_superior: ""
+      arteria_mesenterica_inferior: ""
+      arteria_renalis_rechts: ""
+      arteria_renalis_links: ""
+    iliakal_gefaesse:
+      arteria_iliaca_communis_rechts: ""
+      arteria_iliaca_communis_links: ""
+      arteria_iliaca_externa_rechts: ""
+      arteria_iliaca_externa_links: ""
+      arteria_iliaca_interna_rechts: ""
+      arteria_iliaca_interna_links: ""
+    untere_extremitaet:
+      arteria_femoralis_communis_rechts: ""
+      arteria_femoralis_communis_links: ""
+      arteria_femoralis_superficialis_rechts: ""
+      arteria_femoralis_superficialis_links: ""
+      arteria_poplitea_rechts: ""
+      arteria_poplitea_links: ""
+      arteria_tibialis_posterior_rechts: ""
+      arteria_tibialis_posterior_links: ""
+      arteria_tibialis_anterior_rechts: ""
+      arteria_tibialis_anterior_links: ""
+      arteria_peronea_rechts: ""
+      arteria_peronea_links: ""
+
+    anatomische_varianten: ""
+
+beurteilung: ""

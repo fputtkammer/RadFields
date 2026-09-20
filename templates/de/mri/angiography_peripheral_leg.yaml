@@ -1,0 +1,40 @@
+untersuchung: "MRT Angiographie Becken-Bein"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  gefaesse:
+    aorta:
+      aorta_abdominalis: ""
+    iliakal_gefaesse:
+      arteria_iliaca_communis_rechts: ""
+      arteria_iliaca_communis_links: ""
+      arteria_iliaca_externa_rechts: ""
+      arteria_iliaca_externa_links: ""
+      arteria_iliaca_interna_rechts: ""
+      arteria_iliaca_interna_links: ""
+    untere_extremitaet:
+      arteria_femoralis_communis_rechts: ""
+      arteria_femoralis_communis_links: ""
+      arteria_femoralis_superficialis_rechts: ""
+      arteria_femoralis_superficialis_links: ""
+      arteria_profunda_femoris_rechts: ""
+      arteria_profunda_femoris_links: ""
+      arteria_poplitea_rechts: ""
+      arteria_poplitea_links: ""
+      arteria_tibialis_posterior_rechts: ""
+      arteria_tibialis_posterior_links: ""
+      arteria_tibialis_anterior_rechts: ""
+      arteria_tibialis_anterior_links: ""
+      arteria_peronea_rechts: ""
+      arteria_peronea_links: ""
+    anatomische_varianten: ""
+
+beurteilung: ""

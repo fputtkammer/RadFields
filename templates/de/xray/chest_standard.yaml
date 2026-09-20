@@ -1,0 +1,37 @@
+untersuchung: "<Art der Untersuchung, z.B. \"Röntgen-Thorax ap/pa\">"
+klinische_angaben: "<Fragestellung, Symptome, bekannte Erkrankungen>"
+befunddatum: "<Datum der Befunderstellung, z.B. \"YYYY-MM-DD\">"
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+
+therapiehilfen:
+    atemweg: ""
+    magensonde: ""
+    zentraler_zugang: "<z.B. \"ZVK V. subclavia re.\", \"Portkatheter\">"
+    thoraxdrainage: "<z.B. \"Pleuradrainage\">"
+    herzschrittmacher: ""
+    sonstiges: "<Anderes Fremdmaterial, z.B. \"Sternumcerclagen\">"
+
+thoraxorgane:
+    herz: ""
+    mediastinum: ""
+
+pathologien:
+    lunge:
+        pneumonie: ""
+        atelektase: ""
+        emphysem: ""
+        fibrose: ""
+        raumforderung: ""
+    pleura:
+        pneumothorax: ""
+        pleuraerguss: ""
+    gefaesse:
+        stauung: ""
+        lungenoedem: ""
+    knochen:
+        fraktur: ""
+        sonstiges: ""
+
+sonstiges: "<z.B. \"Weichteilemphysem\", \"Zwerchfellhochstand\">"
+
+beurteilung: ""

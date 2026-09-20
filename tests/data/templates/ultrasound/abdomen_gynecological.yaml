@@ -1,0 +1,26 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, Schallkopf (Frequenz), Zugangsweg (transvaginal/transabdominal)
+befund:
+  uterus:
+    lage: ""
+    groesse: ""
+    myometrium: ""
+    endometrium:
+      dicke_mm: ""
+      struktur: ""
+    besonderheiten: ""
+  cervix: ""
+  adnexe:
+    rechts:
+      ovar: ""
+      tube: ""
+    links:
+      ovar: ""
+      tube: ""
+  douglas_raum: ""
+  freie_fluessigkeit: ""
+  sonstiges: ""
+beurteilung: ""

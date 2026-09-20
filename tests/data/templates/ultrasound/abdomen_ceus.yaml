@@ -1,0 +1,19 @@
+untersuchung: Sonographie Kontrastmittel (CEUS)
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, Schallkopf, KM-Präparat, KM-Menge
+befund:
+  organ: "" # Untersuchtes Organ (meistens Leber oder Niere)
+  laesion:
+    lokalisation: ""
+    groesse_mm: ""
+    b_bild_charakteristika: ""
+    kontrastmittelverhalten:
+      arterielle_phase: ""
+      portalvenoese_phase: ""
+      spaetphase: ""
+  umgebendes_parenchym: ""
+  weitere_laesionen: ""
+  sonstiges: ""
+beurteilung: ""

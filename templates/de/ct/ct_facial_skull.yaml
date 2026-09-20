@@ -1,0 +1,25 @@
+untersuchung: "CT Gesichtsschädel"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "nativ, Knochenfenster"
+  abdeckung: "<Orbita bis Unterkiefer>"
+  rekonstruktionen: "<hochaufloesend, MPR>"
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  orbitae: ""
+  nase: ""
+  oberkiefer: ""
+  unterkiefer_und_kiefergelenke: ""
+  nasennebenhoehlen: ""
+  zaehne: ""
+  weichteile: ""
+  frakturen: ""
+  fremdmaterial: ""
+
+beurteilung: ""

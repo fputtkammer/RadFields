@@ -1,0 +1,10 @@
+befund:
+  katheteranlage:
+    kathetertyp: "<PICC, Port, ZVK, Dialysekatheter, Sheldon>"
+    lage_spitze: ""
+    funktion: ""
+  thrombose:
+    lokalisation: ""
+    ausdehnung: ""
+    thrombolyse: ""
+  varikozelenbehandlung: ""

@@ -1,0 +1,18 @@
+untersuchung: "CT LWS"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  sakrum: ""
+  sakroiliakalgelenke: ""
+  fremdmaterial: ""
+
+beurteilung: ""

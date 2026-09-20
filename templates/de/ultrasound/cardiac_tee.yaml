@@ -1,0 +1,28 @@
+untersuchung: Echokardiographie TEE (transösophageal)
+befunddatum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+technik: ""
+befund:
+  linksherz:
+    lv_funktion: ""
+    wandbewegungsstoerungen: ""
+  linker_vorhof:
+    groesse: ""
+    vorhofohrappenix: "<Wichtig für Thrombenausschluss>"
+  rechtsherz:
+    rv_funktion: ""
+    rechter_vorhof: ""
+  klappen:
+    aortenklappe: ""
+    mitralklappe: ""
+    trikuspidalklappe: ""
+    pulmonalklappe: ""
+  endokard: "<Vegetation/Abszess bei V.a. Endokarditis>"
+  septum:
+    vorhofseptum: ""
+    ventrikel_septum: ""
+  aorta: ""
+  perikard: ""
+  sonstiges: ""
+beurteilung: ""

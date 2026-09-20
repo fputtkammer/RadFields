@@ -1,0 +1,21 @@
+untersuchung: "CT Thorax Lungenparenchym"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  lunge:
+    parenchym:
+      emphysem: ""
+      fibrose: ""
+      milchglas: ""
+      konsolidierung: ""
+
+beurteilung: ""

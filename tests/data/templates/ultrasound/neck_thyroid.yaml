@@ -1,0 +1,33 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-TT
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+
+# Technische Details (optional, als Freitext)
+technik: "" # z.B. Gerät, Schallkopf
+
+befund:
+  schilddruese_gesamt:
+    beschreibung: ""
+    gesamtvolumen_ml: 0.0
+  schilddruesenlappen_rechts:
+    beschreibung: ""
+    volumen_ml: 0.0
+  schilddruesenlappen_links:
+    beschreibung: ""
+    volumen_ml: 0.0
+  isthmus:
+    beschreibung: ""
+  fokale_laesionen:
+    # Liste für Knoten, Zysten etc.
+    - id: "" # Eindeutige Bezeichnung, z.B. "Knoten 1"
+      lokalisation: ""
+      groesse_mm: ""
+      beschreibung: ""
+      tirads_score: ""
+    # - ggf. weitere Läsionen hier hinzufügen
+  lymphknoten_hals: ""
+  nebenschilddruesen: ""
+  sonstiges: ""
+
+beurteilung: ""

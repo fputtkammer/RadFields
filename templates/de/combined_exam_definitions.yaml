@@ -1,0 +1,173 @@
+Computer Tomographie:
+- Type: CT Kopf/Hals
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Hals
+- Type: CT Kopf/Thorax
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Thorax
+- Type: CT Kopf/Abdomen/Becken
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Abdomen und Becken
+- Type: CT Kopf/Herz
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Herz
+- Type: CT Kopf/Angiographie
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Angiographie
+- Type: CT Kopf/Wirbelsäule
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Wirbelsäule
+- Type: CT Kopf/Bewegungsapparat
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Bewegungsapparat
+- Type: CT Hals/Thorax
+  Definition:
+    combines:
+    - CT Hals
+    - CT Thorax
+- Type: CT Hals/Abdomen/Becken
+  Definition:
+    combines:
+    - CT Hals
+    - CT Abdomen und Becken
+- Type: CT Hals/Wirbelsäule
+  Definition:
+    combines:
+    - CT Hals
+    - CT Wirbelsäule
+- Type: CT Hals/Angiographie
+  Definition:
+    combines:
+    - CT Hals
+    - CT Angiographie
+- Type: CT Thorax/Abdomen/Becken
+  Definition:
+    combines:
+    - CT Thorax
+    - CT Abdomen und Becken
+- Type: CT Thorax/Bewegungsapparat
+  Definition:
+    combines:
+    - CT Thorax
+    - CT Bewegungsapparat
+- Type: CT Thorax/Herz
+  Definition:
+    combines:
+    - CT Thorax
+    - CT Herz
+- Type: CT Thorax/Angiographie
+  Definition:
+    combines:
+    - CT Thorax
+    - CT Angiographie
+- Type: CT Abdomen/Becken/Angiographie
+  Definition:
+    combines:
+    - CT Abdomen und Becken
+    - CT Angiographie
+- Type: CT Abdomen/Becken/Bewegungsapparat
+  Definition:
+    combines:
+    - CT Abdomen und Becken
+    - CT Bewegungsapparat
+- Type: CT Kopf/Hals/Thorax
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Hals
+    - CT Thorax
+- Type: CT Kopf/Hals/Abdomen/Becken
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Hals
+    - CT Abdomen und Becken
+- Type: CT Kopf/Angiographie/Hals
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Angiographie
+    - CT Hals
+- Type: CT Kopf/Angiographie/Thorax
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Angiographie
+    - CT Thorax
+- Type: CT Kopf/Angiographie/Abdomen/Becken
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Angiographie
+    - CT Abdomen und Becken
+- Type: CT Kopf/Thorax/Abdomen/Becken
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Thorax
+    - CT Abdomen und Becken
+- Type: CT Kopf/Wirbelsäule/Bewegungsapparat
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Wirbelsäule
+    - CT Bewegungsapparat
+- Type: CT Hals/Thorax/Abdomen/Becken
+  Definition:
+    combines:
+    - CT Hals
+    - CT Thorax
+    - CT Abdomen und Becken
+- Type: CT Thorax/Herz/Abdomen/Becken
+  Definition:
+    combines:
+    - CT Thorax
+    - CT Herz
+    - CT Abdomen und Becken
+- Type: CT Thorax/Abdomen/Becken/Angiographie
+  Definition:
+    combines:
+    - CT Thorax
+    - CT Abdomen und Becken
+    - CT Angiographie
+- Type: CT Thorax/Abdomen/Becken/Bewegungsapparat
+  Definition:
+    combines:
+    - CT Thorax
+    - CT Abdomen und Becken
+    - CT Bewegungsapparat
+- Type: CT Kopf/Hals/Thorax/Abdomen/Becken
+  Definition:
+    combines:
+    - CT Kopf
+    - CT Hals
+    - CT Thorax
+    - CT Abdomen und Becken
+- Type: CT Hals/Thorax/Abdomen/Becken/Angiographie
+  Definition:
+    combines:
+    - CT Hals
+    - CT Thorax
+    - CT Abdomen und Becken
+    - CT Angiographie
+- Type: CT Hals/Thorax/Abdomen/Becken/Herz
+  Definition:
+    combines:
+    - CT Hals
+    - CT Thorax
+    - CT Abdomen und Becken
+    - CT Herz

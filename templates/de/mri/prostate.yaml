@@ -1,0 +1,32 @@
+untersuchung: "MRT Prostata"
+befunddatum: ""
+klinische_angaben: ""
+psa_ng_ml: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  prostata:
+    volumen_ml: ""
+    morphologie: ""
+  periphere_zone: ""
+  transitionalzone: ""
+  laesionen:
+    - id: ""
+      lokalisation: "<Zone und Sektorenkarte>"
+      groesse_mm: ""
+      t2_signal: ""
+      diffusionsrestriktion: ""
+      kontrastmittelaufnahme: ""
+      kapselbeteiligung: ""
+      pirads: "<PI-RADS 1-5>"
+  samenblasen: ""
+  lymphknoten: ""
+  knochen: ""
+
+beurteilung: ""

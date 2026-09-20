@@ -1,0 +1,34 @@
+untersuchung: "<z.B. CT Herz Pulmonalvenenisolation Planung>"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  ecg_gating: ""
+  dosis: ""
+
+befund:
+  gefaesse:
+    pulmonalvenen:
+      anzahl_und_varianten: ""
+      ostien: ""
+      beziehung_oesophagus: ""
+    vena_cava:
+      superior: ""
+      inferior: ""
+    zugangsrelevante_obstruktionen: ""
+  herz:
+    kammern:
+      linkes_atrium: ""
+      linker_ventrikel: ""
+      rechtes_atrium: ""
+      rechter_ventrikel: ""
+      laa:
+        thrombus: ""
+        morphologie: ""
+
+beurteilung: ""

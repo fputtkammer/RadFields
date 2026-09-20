@@ -1,0 +1,23 @@
+untersuchung: "MRT HWS"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  craniocervicaler_uebergang: ""
+  myelopathie: ""
+  bandscheiben:
+    - hoehe: ""
+      protrusion_prolaps: "<medial, paramedian, foraminal>"
+      neuroforamen: ""
+      myelonkontakt: ""
+  spinalkanalstenose: ""
+  fremdmaterial: ""
+
+beurteilung: ""

@@ -1,0 +1,69 @@
+untersuchung: "CT Myelom"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  osteolysen:
+    spezifisch:
+      - id: "<Eintrag je Osteolyse (Liste)>"
+        lokalisation: "<z.B. Wirbelkörper, Becken, Schädel>"
+        groesse_mm: ""
+        stabilitaet: "<stabil/instabil>"
+      - id: ""
+        lokalisation: ""
+        groesse_mm: ""
+        stabilitaet: ""
+    gesamtmorphologie:
+      beschreibung: "<z.B. diffus, multifokal, solitär, seitenangabe>"
+      anzahl: "<Unterscheide zwischen `keine`, `singulär`, `multiple`>"
+
+  kopf:
+    kalotte: ""
+    gesichtsschaedel: ""
+
+  wirbelsaeule:
+    halswirbelsaeule: ""
+    brustwirbelsaeule: ""
+    lendenwirbelsaeule: ""
+
+  thorax:
+    lunge: ""
+    mediastinum: ""
+    herz: ""
+    rippen: ""
+    sternum: ""
+
+  abdomen:
+    leber: ""
+    milz: ""
+    nieren: ""
+    pankreas: ""
+    nebenniere: ""
+    lymphknoten: ""
+
+  becken:
+    beckenring: ""
+    sakrum: ""
+
+  obere_extremitaet:
+    schulter: ""
+    humerus: ""
+    unterarm: ""
+    hand: ""
+
+  untere_extremitaet:
+    femur: ""
+    tibia: ""
+    fuss: ""
+
+  extramedullaere_manifestationen: ""
+
+beurteilung: ""

@@ -1,0 +1,39 @@
+untersuchung: "CT Thorax"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "<nativ oder mit KM>"
+  rekonstruktionen: "<1 mm, Lungen- und Weichteilkernel, MPR>"
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  lunge:
+    parenchym: ""
+    bronchien: ""
+    erguss: ""
+    atelektase: ""
+    infiltrat: ""
+    raumforderung: ""
+    pneumothorax: ""
+  mediastinum:
+    morphologie: ""
+    lymphknoten: ""
+  gefaesse: ""
+  herz:
+    morphologie: ""
+    perikard: ""
+  thoraxwand:
+    rippen: ""
+    sternum: ""
+    weichteile: ""
+  oberbauch: ""
+  wirbelsaeule:
+    frakturen: ""
+    degeneration: ""
+  fremdmaterial: ""
+
+beurteilung: ""

@@ -1,0 +1,18 @@
+untersuchung: ""
+befunddatum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+technik: "<z.B. Gerät, Schallkopf (Frequenz)>"
+befund:
+  abdomen:
+    leber: ""
+    gallenblase: ""
+    milz: ""
+    pankreas: ""
+    nieren: ""
+    darm:
+      pylorus: "<Bei V.a. Pylorusstenose>"
+      appendix: "<Bei V.a. Appendizitis>"
+      invagination: "<Bei V.a. Invagination>"
+  sonstiges: ""
+beurteilung: ""

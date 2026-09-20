@@ -1,0 +1,27 @@
+untersuchung: "CT Kopf mit oder ohne Kontrastmittel"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: "<nativ, arteriell, venoes, spaet>"
+  rekonstruktionen: "<axial, koronal, sagittal; Knochen/Weichteil>"
+  schichtdicke_mm: ""
+  kontrastmittel: "<Praeparat, Volumen, Fluss, Timing>"
+  dosis: "<CTDIvol, DLP>"
+
+befund:
+  hirnparenchym: "<morphologie, mark/rindenkontrast>"
+  blutung: ""
+  infarktzeichen: ""
+  raumforderungen: "<lokalisation, groesse, masseneffekt>"
+  liquorraeume: "<weite der inneren und aeusseren liquorraeume>"
+  meningen: ""
+  gefaesse: ""
+  knochen: ""
+  orbita: ""
+  nasennebenhoehlen_und_mastoide: ""
+  weichteile: ""
+  fremdmaterial: ""
+
+beurteilung: ""

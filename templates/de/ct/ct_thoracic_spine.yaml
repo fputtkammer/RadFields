@@ -1,0 +1,27 @@
+untersuchung: "CT BWS"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  protokoll: ""
+  rekonstruktionen: ""
+  schichtdicke_mm: ""
+  kontrastmittel: ""
+  dosis: ""
+
+befund:
+  kostovertebrale_gelenke: ""
+  rippen: ""
+  lunge:
+    parenchym: ""
+    bronchien: ""
+    erguss: ""
+    atelektase: ""
+    infiltrat: ""
+    raumforderung: ""
+    pneumothorax: ""
+
+  fremdmaterial: ""
+
+beurteilung: ""

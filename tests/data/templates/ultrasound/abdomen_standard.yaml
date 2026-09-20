@@ -1,0 +1,44 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+
+technik: "" # z.B. Gerät, Schallkopf (Frequenz)
+
+befund:
+  leber:
+    groesse: ""
+    parenchym: ""
+    kontur: ""
+    fokale_laesionen:
+      - id: ""
+        lokalisation: ""
+        groesse_mm: ""
+        beschreibung: ""
+      # - ggf. weitere Läsionen hier hinzufügen
+    gefaesse: ""
+
+  gallenblase_gallenwege:
+    gallenblase: ""
+    gallenwege: ""
+
+  pankreas: ""
+
+  milz: ""
+
+  nieren:
+    rechts: ""
+    links: ""
+
+  darm:
+    duenndarm: ""
+    colon: ""
+
+  aorta_abdominalis:
+    durchmesser_mm: "" # Maximaler Durchmesser in mm
+    verlauf: "" # z.B. "Regulär", "Elongiert"
+    wandveraenderungen: "" # z.B. "Wandverkalkungen", "Thromben"
+
+  sonstiges: "" # Freie Flüssigkeit, Lymphknoten, weitere Befunde
+
+beurteilung: ""

@@ -1,0 +1,37 @@
+untersuchung: "MRT Herz"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  stress_protokoll: ""
+  bildqualitaet: ""
+
+befund:
+  linker_ventrikel:
+    funktion: ""
+    volumen_ml: ""
+    ef_prozent: ""
+    wandbewegung: ""
+    wanddicke: ""
+  rechter_ventrikel:
+    funktion: ""
+    volumen_ml: ""
+    ef_prozent: ""
+  vorhoefe: ""
+  klappen:
+    mitralklappe: ""
+    aortenklappe: ""
+    trikuspidalklappe: ""
+    pulmonalklappe: ""
+  myokard:
+    oedem: ""
+    late_enhancement: "<subendokardial, transmural, midmyokardial, epikardial>"
+  perikard: ""
+  grosse_gefaesse: ""
+  raumforderung: ""
+
+beurteilung: ""

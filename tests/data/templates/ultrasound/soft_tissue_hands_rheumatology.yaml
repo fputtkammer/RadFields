@@ -1,0 +1,40 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, hochfrequenter Linearschallkopf (meist 12-18 MHz)
+befund:
+  untersuchte_hand: "" # "Rechte Hand", "Linke Hand" oder "Beide Hände"
+
+  handgelenk:
+    radiokarpalgelenk: "" # Synovitis, Erguss, Erosionen
+    ulnokarpalgelenk: "" # Synovitis, Erguss, Erosionen
+    distales_radioulnargelenk: ""
+
+  mcp_gelenke: # Metakarpophalangealgelenke (Fingergrundgelenke)
+    mcp_i: ""
+    mcp_ii: ""
+    mcp_iii: ""
+    mcp_iv: ""
+    mcp_v: ""
+
+  pip_gelenke: # Proximale Interphalangealgelenke (Fingermittelgelenke)
+    pip_i: ""
+    pip_ii: ""
+    pip_iii: ""
+    pip_iv: ""
+    pip_v: ""
+
+  dip_gelenke: "" # Distale Interphalangealgelenke (Fingerendgelenke)
+
+  sehnen: # Strecksehnen und Beugesehnen
+    strecksehnen: "" # Tenosynovitis, Rupturen
+    beugesehnen: "" # Tenosynovitis, Rupturen
+
+  doppler_befunde: "" # Hypervaskularisation als Zeichen aktiver Entzündung # Wichtig für Aktivitätsbeurteilung bei Arthritis
+
+  erosionen: "" # Lokalisation und Ausmaß von knöchernen Erosionen # Wichtig für Verlaufsbeurteilung chronischer Arthritiden
+
+  sonstiges: "" # Weitere Befunde wie Osteophyten, Kristallablagerungen, Knorpelschäden
+
+beurteilung: ""

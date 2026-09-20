@@ -1,0 +1,18 @@
+untersuchung: Sonographie Thorax
+befunddatum: "<Format: YYYY-MM-DD>"
+klinische_angaben: ""
+vergleich: "<Verweis auf Voruntersuchungen, z.B. \"VU vom YYYY-MM-DD\">"
+technik: ""
+befund:
+  pleuraerguss:
+    rechts: ""
+    links: ""
+  pneumothorax:
+    rechts: ""
+    links: ""
+  lungenparenchym:
+    rechts: ""
+    links: ""
+  pleurablätter: ""
+  sonstiges: ""
+beurteilung: ""

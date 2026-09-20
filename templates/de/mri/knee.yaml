@@ -1,0 +1,31 @@
+untersuchung: "MRT Knie"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  kreuzbander:
+    vkb: ""
+    hkb: ""
+  menisken:
+    innenmeniskus: ""
+    aussenmeniskus: ""
+  kollateralbaender:
+    innenband: ""
+    aussenband: ""
+  knorpel:
+    femur: ""
+    tibia: ""
+    patella: ""
+  knochen: ""
+  erguss: ""
+  baker_zyste: ""
+  fremdmaterial: ""
+
+beurteilung: ""

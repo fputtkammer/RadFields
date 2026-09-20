@@ -1,0 +1,21 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, Schallkopf (Frequenz), Doppler-Parameter
+befund:
+  untersuchte_extremitaet: "" # z.B. "Rechter Arm", "Linker Arm", "Beide Arme"
+  tiefe_venen:
+    v_subclavia: ""
+    v_axillaris: ""
+    v_brachialis: ""
+    v_cephalica: ""
+    v_basilica: ""
+    v_ulnaris: ""
+    v_radialis: ""
+  kompressibilität: "" # Kompressibilität der untersuchten Venen
+  flussverhalten: "" # Spontan, atemvariabel, Augmentation
+  katheter_lage: "" # Bei ZVK-Trägern: Lage, Thrombusbildung
+  thrombosenachweis: "" # Bei Thrombose: Lokalisation, Ausdehnung, Alter
+  sonstiges: ""
+beurteilung: ""

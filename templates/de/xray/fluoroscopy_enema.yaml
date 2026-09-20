@@ -1,0 +1,24 @@
+untersuchung: "Kontrasteinlauf"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  kontrastmittel: ""
+  applikationsweg: "rektal"
+  lagerung_und_manoever: ""
+  durchleuchtungszeit_dosis: ""
+
+befund:
+  colon:
+    fuellung_und_kaliber: ""
+    haustrierung: ""
+    schleimhautrelief: ""
+    divertikel: ""
+    stenosen: ""
+    anastomosen: ""
+    nahtinsuffizienz: ""
+  terminales_ileum: ""
+  fremdmaterial: ""
+
+beurteilung: ""

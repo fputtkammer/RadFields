@@ -1,0 +1,18 @@
+untersuchung: ""
+befunddatum: "" # Format: YYYY-MM-DD
+klinische_angaben: ""
+vergleich: "" # Verweis auf Voruntersuchungen, z.B. "VU vom YYYY-MM-DD"
+technik: "" # z.B. Gerät, Schallkopf, Punktionstechnik, Nadelgröße
+befund:
+  interventionstyp: "" # Punktion, Drainage, Biopsie, Zystenaspiration
+  zielstruktur:
+    lokalisation: ""
+    groesse_mm: ""
+    beschreibung: ""
+  zugangsweg: ""
+  durchfuehrung: ""
+  ergebnis: ""
+  komplikationen: ""
+  material: ""
+  sonstiges: ""
+beurteilung: ""

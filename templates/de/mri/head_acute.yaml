@@ -1,0 +1,29 @@
+untersuchung: "MRT Kopf Akut"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  feldstaerke_t: ""
+  sequenzen: ""
+  kontrastmittel: ""
+  bildqualitaet: ""
+
+befund:
+  diffusionsrestriktion:
+    vorhanden: ""
+    lokalisation: ""
+    ausdehnung: ""
+    gefaessterritorium: "<ACM, ACA, ACP, Grenzzone>"
+  blutung:
+    vorhanden: ""
+    lokalisation: ""
+    ausdehnung: ""
+    typ: "<intraparenchymal, subarachnoidal, subdural, epidural>"
+  masseneffekt: ""
+  mittellinienverlagerung_mm: ""
+  gefaessverschluss: ""
+  venensinus_thrombose: ""
+  fraktur: ""
+
+beurteilung: ""

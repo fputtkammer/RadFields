@@ -1,0 +1,18 @@
+untersuchung: "Röntgen Abdomen"
+befunddatum: ""
+klinische_angaben: ""
+vergleich: ""
+
+technik:
+  projektionen: "<stehend, liegend, Linksseitenlage>"
+  lage: ""
+
+befund:
+  darmgasverteilung: ""
+  spiegelbildung: ""
+  freie_luft: ""
+  kalzifikationen: "<Phlebolithen, Urolithen, Gefäß>"
+  weichteile: ""
+  fremdkoerper: ""
+
+beurteilung: ""
